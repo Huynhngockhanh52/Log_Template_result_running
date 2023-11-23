@@ -1,0 +1,100 @@
+EventId,EventTemplate,Occurrences
+E0,"('STARTUP_MSG:', '')",16
+E1,"('Formatting', '...')",4
+E2,"('SHUTDOWN_MSG:', '')",11
+E3,"('registered', 'UNIX', 'signal', 'handlers', 'for', '[TERM,', 'HUP,', 'INT]')",16
+E4,"('Http', 'request', 'log', 'for', 'http.requests.datanode', 'is', 'not', 'defined')",16
+E5,"('Storage', 'directory', '<*>', 'is', 'not', 'formatted', 'for', '<*>')",2
+E6,"('Failed', 'to', 'delete', 'replica', '<*>', 'ReplicaInfo', 'not', 'found.')",7
+E7,"('Slow', 'flushOrSync', 'took', '<*>', '(threshold=300ms),', 'isSync:', 'false,', '<*>')",42
+E8,"('loaded', 'properties', 'from', 'hadoop-metrics2.properties')",16
+E9,"('DataNode', 'metrics', 'system', 'started')",16
+E10,"('Using', 'callQueue', 'class', 'java.util.concurrent.LinkedBlockingQueue')",16
+E11,"('Configured', 'hostname', '<*>', '<*>')",16
+E12,"('Setting', 'up', '<*>', '<*>')",16
+E13,"('IPC', 'Server', 'Responder:', 'starting')",16
+E14,"('Added', 'new', 'volume:', '<*>')",16
+E15,"('Adding', 'block', 'pool', '<*>')",16
+E16,"('RECEIVED', 'SIGNAL', '<*>', 'SIGTERM')",11
+E17,"('Scheduled', 'snapshot', 'period', '<*>', '<*>', 'second(s).')",16
+E18,"('Initialized', 'block', 'scanner', '<*>', '<*>', '<*>')",16
+E19,"('Starting', 'DataNode', '<*>', '<*>', '<*>', '<*>')",16
+E20,"('Number', 'threads', '<*>', '<*>', '<*>', '<*>')",16
+E21,"('Refresh', 'request', 'received', '<*>', '<*>', 'null')",16
+E22,"('Restored', '<*>', 'block', '<*>', '<*>', 'trash.')",16
+E23,"('Added', 'volume', '-', '<*>', '<*>', 'DISK')",16
+E24,"('IPC', 'Server', 'listener', 'on', '<*>', 'starting')",16
+E25,"('Analyzing', 'storage', 'directories', 'for', 'bpid', '<*>')",16
+E26,"('Formatting', 'block', 'pool', '<*>', 'directory', '<*>')",2
+E27,"('Scheduling', '<*>', 'file', '<*>', 'for', 'deletion')",218880
+E28,"('Cached', 'dfsUsed', 'found', 'for', '<*>', '<*>')",10
+E29,"('VolumeScanner(/opt/hdfs/data,', '<*>', 'exiting', 'because', 'of', 'exception')",6
+E30,"('Opened', '<*>', 'server', 'at', '<*>')",32
+E31,"('Balancing', 'bandwith', '<*>', '<*>', 'bytes/s')",16
+E32,"('Logging', 'to', '<*>', 'via', 'org.mortbay.log.Slf4jLog')",16
+E33,"('Added', 'global', '<*>', ""'safety'"", '(class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)')",16
+E34,"('Jetty', 'bound', '<*>', 'port', '<*>')",16
+E35,"('Listening', 'HTTP', '<*>', 'on', '<*>')",16
+E36,"('Starting', 'BPOfferServices', '<*>', 'nameservices:', '<*>')",16
+E37,"('Locking', 'is', '<*>', '<*>', '<*>')",16
+E38,"('Deleted', '<*>', '<*>', 'file', '<*>')",218880
+E39,"('PacketResponder:', '<*>', '<*>', 'type=HAS_DOWNSTREAM_IN_PIPELINE', 'terminating')",158772
+E40,"('Slow', 'manageWriterOsCache', 'took', '<*>', '(threshold=300ms)')",38
+E41,"('Unable', 'to', 'initialize', 'FileSignerSecretProvider,', 'falling', 'back', 'to', 'use', 'random', 'secrets.')",16
+E42,"('Block', 'pool', 'storage', 'directory', '<*>', 'is', 'not', 'formatted', 'for', '<*>')",2
+E43,"('Time', 'taken', 'to', 'scan', 'block', 'pool', '<*>', 'on', '<*>', '<*>')",16
+E44,"('Received', '<*>', '<*>', 'src:', '<*>', 'dest:', '<*>', 'of', 'size', '<*>')",21169
+E45,"('Retrying', 'connect', 'to', 'server:', '<*>', 'Already', 'tried', '<*>', 'time(s);', '<*>')",2
+E46,"('Added', 'filter', 'static_user_filter', '(class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter)', 'to', 'context', '<*>')",48
+E47,"('Starting', 'Socket', 'Reader', '<*>', 'for', 'port', '<*>')",16
+E48,"('Lock', 'on', '<*>', 'acquired', 'by', 'nodename', '<*>')",16
+E49,"('Generated', 'and', 'persisted', 'new', 'Datanode', 'UUID', '<*>')",2
+E50,"('Scanning', 'block', 'pool', '<*>', 'on', 'volume', '<*>')",16
+E51,"('Now', 'scanning', 'bpid', '<*>', 'on', 'volume', '<*>')",2
+E52,"('VolumeScanner(/tmp/hadoop-hdfs/dfs/data,', '<*>', 'finished', 'scanning', 'block', 'pool', '<*>')",1
+E53,"('Got', 'finalize', 'command', 'for', 'block', 'pool', '<*>')",2707
+E54,"('VolumeScanner(/opt/hdfs/data,', '<*>', 'finished', 'scanning', 'block', 'pool', '<*>')",6
+E55,"('Receiving', '<*>', '<*>', 'src:', '<*>', 'dest:', '<*>')",263857
+E56,"('PacketResponder:', '<*>', '<*>', 'type=LAST_IN_PIPELINE,', '<*>', '[]', 'terminating')",83914
+E57,"('DataTransfer:', 'Transmitted', '<*>', '<*>', '<*>', 'to', '<*>')",22634
+E58,"('<*>',)",16
+E59,"('Started', 'HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:', '<*>')",16
+E60,"('Registered', 'FSDatasetState', 'MBean')",16
+E61,"('dnUserName', '=', 'hdfs')",16
+E62,"('<*>', '=', '<*>')",16
+E63,"('IOException', 'in', 'offerService')",18580
+E64,"('VolumeScanner(/opt/hdfs/data,', '<*>', 'exiting.')",6
+E65,"('Starting', 'CheckDiskError', 'Thread')",2
+E66,"('Block', 'pool', '<registering>', '(Datanode', 'Uuid', 'unassigned)', 'service', 'to', '<*>', 'starting', 'to', 'offer', 'service')",16
+E67,"('Block', 'pool', '<*>', '(Datanode', 'Uuid', '<*>', 'service', 'to', '<*>', 'beginning', 'handshake', 'with', 'NN')",18
+E68,"('Detected', 'pause', 'in', 'JVM', 'or', 'host', 'machine', '(eg', 'GC):', 'pause', 'of', 'approximately', '<*>')",5
+E69,"('Total', 'time', 'to', 'scan', 'all', 'replicas', 'for', 'block', 'pool', '<*>', '<*>')",16
+E70,"('Adding', 'replicas', 'to', 'map', 'for', 'block', 'pool', '<*>', 'on', 'volume', '<*>')",16
+E71,"('Periodic', 'Directory', 'Tree', 'Verification', 'scan', 'starting', 'at', '<*>', 'with', 'interval', '<*>')",16
+E72,"('VolumeScanner(/opt/hdfs/data,', '<*>', 'suspect', 'block', '<*>', '<*>', 'is', 'already', 'queued', 'for', 'rescanning.')",960
+E73,"('<*>', '<*>', 'DataXceiver', 'error', 'processing', '<*>', 'operation', 'src:', '<*>', 'dst:', '<*>')",3
+E74,"('Time', 'to', 'add', 'replicas', 'to', 'map', 'for', 'block', 'pool', '<*>', 'on', 'volume', '<*>', '<*>')",16
+E75,"('<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>')",22624
+E76,"('Total', 'time', 'to', 'add', 'all', 'replicas', 'to', 'map:', '<*>')",16
+E77,"('Slow', 'BlockReceiver', 'write', '<*>', 'to', '<*>', '<*>', '<*>', '(threshold=300ms)')",209
+E78,"('VolumeScanner(/opt/hdfs/data,', '<*>', 'Scheduling', 'suspect', 'block', '<*>', '<*>', 'for', 'rescanning.')",245
+E79,"('DatanodeCommand', 'action', ':', 'DNA_REGISTER', 'from', '<*>', 'with', 'active', 'state')",2
+E80,"('Block', 'pool', 'Block', 'pool', '<*>', '(Datanode', 'Uuid', '<*>', 'service', 'to', '<*>', 'successfully', 'registered', 'with', 'NN')",18
+E81,"('Retrying', 'connect', 'to', 'server:', '<*>', 'Already', 'tried', '<*>', 'time(s);', 'retry', 'policy', 'is', '<*>', '<*>', 'MILLISECONDS)')",183241
+E82,"('<*>', '<*>', '<*>', '<*>', '<*>', '<*>', 'Starting', 'thread', 'to', 'transfer', '<*>', '<*>', 'to', '<*>', '<*>')",14
+E83,"('VolumeScanner(/opt/hdfs/data,', '<*>', 'Not', 'scheduling', 'suspect', 'block', '<*>', '<*>', 'for', 'rescanning,', 'because', 'we', 'rescanned', 'it', 'recently.')",360
+E84,"('For', 'namenode', '<*>', 'using', 'DELETEREPORT_INTERVAL', 'of', '<*>', 'msec', 'BLOCKREPORT_INTERVAL', 'of', '<*>', 'CACHEREPORT_INTERVAL', 'of', '<*>', 'Initial', 'delay:', '0msec;', '<*>')",16
+E85,"('<*>', '<*>', 'no', 'suitable', 'block', 'pools', 'found', 'to', 'scan.', 'Waiting', '<*>', 'ms.')",18
+E86,"('Acknowledging', 'ACTIVE', 'Namenode', 'Block', 'pool', '<*>', '(Datanode', 'Uuid', '<*>', 'service', 'to', '<*>')",16
+E87,"('Now', 'rescanning', 'bpid', '<*>', 'on', 'volume', '/opt/hdfs/data,', 'after', 'more', 'than', '<*>', 'hour(s)')",6
+E88,"('opReadBlock', '<*>', '<*>', 'received', 'exception', 'org.apache.hadoop.hdfs.server.datanode.ReplicaNotFoundException:', 'Replica', 'not', 'found', 'for', '<*>', '<*>')",1
+E89,"('Namenode', 'Block', 'pool', '<*>', '(Datanode', 'Uuid', '<*>', 'service', 'to', '<*>', 'trying', 'to', 'claim', 'ACTIVE', 'state', 'with', '<*>')",16
+E90,"('Successfully', 'sent', 'block', 'report', '<*>', 'containing', '<*>', 'storage', 'report(s),', 'of', 'which', 'we', 'sent', '<*>', 'The', 'reports', 'had', '<*>', 'total', 'blocks', 'and', 'used', '<*>', 'RPC(s).', 'This', 'took', '<*>', 'msec', 'to', 'generate', 'and', '<*>', 'msecs', 'for', 'RPC', 'and', 'NN', 'processing.', 'Got', 'back', 'one', 'command:', '<*>')",2707
+E91,"('src:', '<*>', 'dest:', '<*>', 'bytes:', '<*>', 'op:', 'HDFS_WRITE,', 'cliID:', '<*>', 'offset:', '<*>', 'srvID:', '<*>', 'blockid:', '<*>', '<*>', 'duration:', '<*>')",242686
+E92,"('opWriteBlock', '<*>', '<*>', 'received', 'exception', 'org.apache.hadoop.hdfs.server.datanode.ReplicaAlreadyExistsException:', 'Block', '<*>', '<*>', 'already', 'exists', 'in', 'state', 'FINALIZED', 'and', 'thus', 'cannot', 'be', 'created.')",1
+E93,"('BlockPool', '<*>', 'Total', 'blocks:', '<*>', 'missing', 'metadata', 'files:', '<*>', 'missing', 'block', 'files:', '<*>', 'missing', 'blocks', 'in', 'memory:', '<*>', 'mismatched', 'blocks:', '<*>')",2697
+E94,"('<*>', '<*>', '<*>', '<*>', '<*>', '<*>', 'Starting', 'thread', 'to', 'transfer', '<*>', '<*>', 'to', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>')",11
+E95,"(""DataNode{data=FSDataset{dirpath='[/opt/hdfs/data/current]'},"", '<*>', '<*>', '<*>', '<*>', 'Exception', 'transfering', 'block', '<*>', '<*>', 'to', 'mirror', '<*>', 'java.net.SocketTimeoutException:', '<*>', 'millis', 'timeout', 'while', 'waiting', 'for', 'channel', 'to', 'be', 'ready', 'for', 'read.', 'ch', ':', 'java.nio.channels.SocketChannel[connected', '<*>', '<*>')",1
+E96,"('opWriteBlock', '<*>', '<*>', 'received', 'exception', 'java.net.SocketTimeoutException:', '<*>', 'millis', 'timeout', 'while', 'waiting', 'for', 'channel', 'to', 'be', 'ready', 'for', 'read.', 'ch', ':', 'java.nio.channels.SocketChannel[connected', '<*>', '<*>')",1
+E97,"('<*>', '<*>', 'DataXceiver', 'error', 'processing', 'WRITE_BLOCK', 'operation', 'src:', '<*>', 'dst:', '<*>', 'org.apache.hadoop.hdfs.server.datanode.ReplicaAlreadyExistsException:', 'Block', '<*>', '<*>', 'already', 'exists', 'in', 'state', 'FINALIZED', 'and', 'thus', 'cannot', 'be', 'created.')",1
+E98,"('Unsuccessfully', 'sent', 'block', 'report', '<*>', 'containing', '<*>', 'storage', 'report(s),', 'of', 'which', 'we', 'sent', '<*>', 'The', 'reports', 'had', '<*>', 'total', 'blocks', 'and', 'used', '<*>', 'RPC(s).', 'This', 'took', '<*>', 'msec', 'to', 'generate', 'and', '<*>', 'msecs', 'for', 'RPC', 'and', 'NN', 'processing.', 'Got', 'back', 'no', 'commands.')",9

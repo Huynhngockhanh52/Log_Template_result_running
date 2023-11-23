@@ -1,0 +1,101 @@
+EventId,EventTemplate,Occurrences
+E0,"('STARTUP_MSG:', '')",18
+E1,"('Formatting', '...')",4
+E2,"('SHUTDOWN_MSG:', '')",12
+E3,"('registered', 'UNIX', 'signal', 'handlers', 'for', '[TERM,', 'HUP,', 'INT]')",19
+E4,"('Http', 'request', 'log', 'for', 'http.requests.datanode', 'is', 'not', 'defined')",19
+E5,"('Storage', 'directory', '<*>', 'is', 'not', 'formatted', 'for', '<*>')",2
+E6,"('Took', '<*>', 'to', 'process', '<*>', 'commands', 'from', 'NN')",8
+E7,"('Failed', 'to', 'delete', 'replica', '<*>', 'ReplicaInfo', 'not', 'found.')",1
+E8,"('Slow', 'flushOrSync', 'took', '<*>', '(threshold=300ms),', 'isSync:', 'false,', '<*>')",60
+E9,"('loaded', 'properties', 'from', 'hadoop-metrics2.properties')",19
+E10,"('DataNode', 'metrics', 'system', 'started')",19
+E11,"('Using', 'callQueue', 'class', 'java.util.concurrent.LinkedBlockingQueue')",19
+E12,"('Configured', 'hostname', 'is', '<*>')",19
+E13,"('IPC', 'Server', 'Responder:', 'starting')",19
+E14,"('Setting', 'up', 'storage:', '<*>')",18
+E15,"('Added', 'new', 'volume:', '<*>')",18
+E16,"('Adding', 'block', 'pool', '<*>')",18
+E17,"('RECEIVED', 'SIGNAL', '<*>', 'SIGTERM')",12
+E18,"('Scheduled', 'snapshot', 'period', '<*>', '<*>', 'second(s).')",19
+E19,"('Initialized', 'block', 'scanner', '<*>', '<*>', '<*>')",19
+E20,"('Starting', 'DataNode', '<*>', '<*>', '<*>', '<*>')",19
+E21,"('Number', 'threads', '<*>', '<*>', '<*>', '<*>')",19
+E22,"('Refresh', 'request', 'received', '<*>', '<*>', 'null')",19
+E23,"('IPC', 'Server', 'listener', 'on', '<*>', 'starting')",19
+E24,"('Analyzing', 'storage', 'directories', 'for', 'bpid', '<*>')",18
+E25,"('Formatting', 'block', 'pool', '<*>', 'directory', '<*>')",2
+E26,"('Restored', '<*>', '<*>', 'files', '<*>', 'trash.')",18
+E27,"('Added', 'volume', '<*>', '/tmp/hadoop-hdfs/dfs/data/current,', '<*>', 'DISK')",2
+E28,"('Added', 'volume', '<*>', '/opt/hdfs/data/current,', '<*>', 'DISK')",16
+E29,"('Cached', 'dfsUsed', 'found', 'for', '<*>', '<*>')",12
+E30,"('Scheduling', '<*>', 'file', '<*>', 'for', 'deletion')",208857
+E31,"('VolumeScanner(/opt/hdfs/data,', '<*>', 'exiting', 'because', 'of', 'exception')",5
+E32,"('Opened', '<*>', 'server', 'at', '<*>')",38
+E33,"('Balancing', 'bandwith', '<*>', '<*>', 'bytes/s')",19
+E34,"('Logging', 'to', '<*>', 'via', 'org.mortbay.log.Slf4jLog')",19
+E35,"('Added', 'global', '<*>', ""'safety'"", '(class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)')",19
+E36,"('Jetty', 'bound', '<*>', 'port', '<*>')",19
+E37,"('Listening', 'HTTP', '<*>', 'on', '<*>')",19
+E38,"('Starting', 'BPOfferServices', '<*>', 'nameservices:', '<*>')",19
+E39,"('Problem', 'connecting', 'to', 'server:', '<*>')",4517
+E40,"('Locking', 'is', 'disabled', 'for', '<*>')",18
+E41,"('Deleted', '<*>', '<*>', 'file', '<*>')",208857
+E42,"('PacketResponder:', '<*>', '<*>', 'type=HAS_DOWNSTREAM_IN_PIPELINE', 'terminating')",149961
+E43,"('Slow', 'manageWriterOsCache', 'took', '<*>', '(threshold=300ms)')",185
+E44,"('Unable', 'to', 'initialize', 'FileSignerSecretProvider,', 'falling', 'back', 'to', 'use', 'random', 'secrets.')",19
+E45,"('Block', 'pool', 'storage', 'directory', '<*>', 'is', 'not', 'formatted', 'for', '<*>')",2
+E46,"('Time', 'taken', 'to', 'scan', 'block', 'pool', '<*>', 'on', '<*>', '<*>')",18
+E47,"('Received', '<*>', '<*>', 'src:', '<*>', 'dest:', '<*>', 'of', 'size', '<*>')",20963
+E48,"('Retrying', 'connect', 'to', 'server:', '<*>', 'Already', 'tried', '<*>', 'time(s);', '<*>')",25
+E49,"('Added', 'filter', 'static_user_filter', '(class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter)', 'to', 'context', '<*>')",57
+E50,"('Starting', 'Socket', 'Reader', '<*>', 'for', 'port', '<*>')",19
+E51,"('Lock', 'on', '<*>', 'acquired', 'by', 'nodename', '<*>')",18
+E52,"('Generated', 'and', 'persisted', 'new', 'Datanode', 'UUID', '<*>')",2
+E53,"('Scanning', 'block', 'pool', '<*>', 'on', 'volume', '<*>')",18
+E54,"('Now', 'scanning', 'bpid', '<*>', 'on', 'volume', '<*>')",2
+E55,"('VolumeScanner(/tmp/hadoop-hdfs/dfs/data,', '<*>', 'finished', 'scanning', 'block', 'pool', '<*>')",1
+E56,"('Got', 'finalize', 'command', 'for', 'block', 'pool', '<*>')",2707
+E57,"('VolumeScanner(/opt/hdfs/data,', '<*>', 'finished', 'scanning', 'block', 'pool', '<*>')",7
+E58,"('Receiving', '<*>', '<*>', 'src:', '<*>', 'dest:', '<*>')",254734
+E59,"('PacketResponder:', '<*>', '<*>', 'type=LAST_IN_PIPELINE,', '<*>', '[]', 'terminating')",83806
+E60,"('DataTransfer:', 'Transmitted', '<*>', '<*>', '<*>', 'to', '<*>')",23660
+E61,"('<*>',)",19
+E62,"('Started', 'HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:', '<*>')",19
+E63,"('dnUserName', '=', 'hdfs')",19
+E64,"('<*>', '=', '<*>')",19
+E65,"('Registered', 'FSDatasetState', 'MBean')",18
+E66,"('IOException', 'in', 'offerService')",18566
+E67,"('VolumeScanner(/opt/hdfs/data,', '<*>', 'exiting.')",5
+E68,"('Starting', 'CheckDiskError', 'Thread')",1
+E69,"('Block', 'pool', '<registering>', '(Datanode', 'Uuid', 'unassigned)', 'service', 'to', '<*>', 'starting', 'to', 'offer', 'service')",19
+E70,"('Block', 'pool', '<*>', '(Datanode', 'Uuid', '<*>', 'service', 'to', '<*>', 'beginning', 'handshake', 'with', 'NN')",20
+E71,"('Retrying', 'connect', 'to', 'server:', '<*>', 'Already', 'tried', '<*>', 'time(s);', 'retry', 'policy', 'is', '<*>', '<*>', 'MILLISECONDS)')",228299
+E72,"('Block', 'pool', 'Block', 'pool', '<*>', '(Datanode', 'Uuid', '<*>', 'service', 'to', '<*>', 'successfully', 'registered', 'with', 'NN')",20
+E73,"('VolumeScanner(/opt/hdfs/data,', '<*>', 'Not', 'scheduling', 'suspect', 'block', '<*>', '<*>', 'for', 'rescanning,', 'because', 'we', 'rescanned', 'it', 'recently.')",391
+E74,"('<*>', '<*>', '<*>', '<*>', '<*>', '<*>', 'Starting', 'thread', 'to', 'transfer', '<*>', '<*>', 'to', '<*>', '<*>')",36
+E75,"('Total', 'time', 'to', 'scan', 'all', 'replicas', 'for', 'block', 'pool', '<*>', '<*>')",18
+E76,"('Adding', 'replicas', 'to', 'map', 'for', 'block', 'pool', '<*>', 'on', 'volume', '<*>')",18
+E77,"('Periodic', 'Directory', 'Tree', 'Verification', 'scan', 'starting', 'at', '<*>', 'with', 'interval', '<*>')",18
+E78,"('<*>', '<*>', 'DataXceiver', 'error', 'processing', 'unknown', 'operation', 'src:', '<*>', 'dst:', '<*>')",1
+E79,"('VolumeScanner(/opt/hdfs/data,', '<*>', 'suspect', 'block', '<*>', '<*>', 'is', 'already', 'queued', 'for', 'rescanning.')",640
+E80,"('Time', 'to', 'add', 'replicas', 'to', 'map', 'for', 'block', 'pool', '<*>', 'on', 'volume', '<*>', '<*>')",18
+E81,"('<*>', '<*>', '<*>', '<*>', '<*>', '<*>', 'Starting', 'thread', 'to', 'transfer', '<*>', '<*>', 'to', '<*>')",23615
+E82,"('<*>', '<*>', '<*>', '<*>', '<*>', '<*>', 'Failed', 'to', 'transfer', '<*>', '<*>', 'to', '<*>', 'got')",5
+E83,"('Total', 'time', 'to', 'add', 'all', 'replicas', 'to', 'map:', '<*>')",18
+E84,"('Slow', 'BlockReceiver', 'write', '<*>', 'to', '<*>', '<*>', '<*>', '(threshold=300ms)')",476
+E85,"('VolumeScanner(/opt/hdfs/data,', '<*>', 'Scheduling', 'suspect', 'block', '<*>', '<*>', 'for', 'rescanning.')",252
+E86,"('DatanodeCommand', 'action', ':', 'DNA_REGISTER', 'from', '<*>', 'with', 'active', 'state')",2
+E87,"('<*>', '<*>', '<*>', '<*>', '<*>', 'INFO', 'org.apache.hadoop.hdfs.server.datanode.DataNode:', 'STARTUP_MSG:', '')",1
+E88,"('For', 'namenode', '<*>', 'using', 'DELETEREPORT_INTERVAL', 'of', '<*>', 'msec', 'BLOCKREPORT_INTERVAL', 'of', '<*>', 'CACHEREPORT_INTERVAL', 'of', '<*>', 'Initial', 'delay:', '0msec;', '<*>')",18
+E89,"('<*>', '<*>', 'no', 'suitable', 'block', 'pools', 'found', 'to', 'scan.', 'Waiting', '<*>', 'ms.')",20
+E90,"('Acknowledging', 'ACTIVE', 'Namenode', 'Block', 'pool', '<*>', '(Datanode', 'Uuid', '<*>', 'service', 'to', '<*>')",18
+E91,"('Now', 'rescanning', 'bpid', '<*>', 'on', 'volume', '/opt/hdfs/data,', 'after', 'more', 'than', '<*>', 'hour(s)')",7
+E92,"('Namenode', 'Block', 'pool', '<*>', '(Datanode', 'Uuid', '<*>', 'service', 'to', '<*>', 'trying', 'to', 'claim', 'ACTIVE', 'state', 'with', '<*>')",18
+E93,"('Successfully', 'sent', 'block', 'report', '<*>', 'containing', '<*>', 'storage', 'report(s),', 'of', 'which', 'we', 'sent', '<*>', 'The', 'reports', 'had', '<*>', 'total', 'blocks', 'and', 'used', '<*>', 'RPC(s).', 'This', 'took', '<*>', 'msec', 'to', 'generate', 'and', '<*>', 'msecs', 'for', 'RPC', 'and', 'NN', 'processing.', 'Got', 'back', 'one', 'command:', '<*>')",2707
+E94,"('src:', '<*>', 'dest:', '<*>', 'bytes:', '<*>', 'op:', 'HDFS_WRITE,', 'cliID:', '<*>', 'offset:', '<*>', 'srvID:', '<*>', 'blockid:', '<*>', '<*>', 'duration:', '<*>')",233767
+E95,"('opWriteBlock', '<*>', '<*>', 'received', 'exception', 'org.apache.hadoop.hdfs.server.datanode.ReplicaAlreadyExistsException:', 'Block', '<*>', '<*>', 'already', 'exists', 'in', 'state', 'FINALIZED', 'and', 'thus', 'cannot', 'be', 'created.')",4
+E96,"('BlockPool', '<*>', 'Total', 'blocks:', '<*>', 'missing', 'metadata', 'files:', '<*>', 'missing', 'block', 'files:', '<*>', 'missing', 'blocks', 'in', 'memory:', '<*>', 'mismatched', 'blocks:', '<*>')",2701
+E97,"('<*>', '<*>', '<*>', '<*>', '<*>', '<*>', 'Starting', 'thread', 'to', 'transfer', '<*>', '<*>', 'to', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>')",14
+E98,"('<*>', '<*>', 'DataXceiver', 'error', 'processing', 'WRITE_BLOCK', 'operation', 'src:', '<*>', 'dst:', '<*>', 'org.apache.hadoop.hdfs.server.datanode.ReplicaAlreadyExistsException:', 'Block', '<*>', '<*>', 'already', 'exists', 'in', 'state', 'FINALIZED', 'and', 'thus', 'cannot', 'be', 'created.')",4
+E99,"('Unsuccessfully', 'sent', 'block', 'report', '<*>', 'containing', '<*>', 'storage', 'report(s),', 'of', 'which', 'we', 'sent', '<*>', 'The', 'reports', 'had', '<*>', 'total', 'blocks', 'and', 'used', '<*>', 'RPC(s).', 'This', 'took', '<*>', 'msec', 'to', 'generate', 'and', '<*>', 'msecs', 'for', 'RPC', 'and', 'NN', 'processing.', 'Got', 'back', 'no', 'commands.')",8
