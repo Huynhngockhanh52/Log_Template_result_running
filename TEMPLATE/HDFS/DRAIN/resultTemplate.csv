@@ -1,0 +1,549 @@
+EventTemplate,EventId,Occurrences
+Acknowledging ACTIVE Namenode Block pool BP-<*>-<*><*> (Datanode Uuid <*> service to mesos-master-<*><*>,['311e765c'],431
+Acknowledging ACTIVE Namenode Block pool BP-<*>-<*><*> (Datanode Uuid d9ef1b17-<*>-4cd8-91eb-095413c3427f) service to mesos-master-<*><*>,['f58cdbea'],6
+Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context <*>,['2a05a0cf'],1320
+Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter),['a8927e0e'],440
+Added new volume: <*>,['5b21022b'],431
+Added new volume: DS-f790b728-1e6a-46a8-8ce4-f8d0038a603b,['653f5044'],6
+"Added volume - /opt/hdfs/data/current, StorageType: DISK",['a70095b0'],6
+Added volume - <*> StorageType: DISK,['7ca91e61'],431
+Adding block pool BP-<*>-<*>-<*>,['91934b40'],437
+Adding replicas to map for block pool BP-<*>-<*><*> on volume /opt/hdfs/data/current...,['1bfcefd6'],6
+Adding replicas to map for block pool BP-<*>-<*><*> on volume <*>,['d79d59b9'],431
+Analyzing storage directories for bpid BP-<*>-<*>-<*>,['2368a53b'],437
+Balancing bandwith is <*> bytes/s,['e1172ff0'],440
+Block pool <*> (Datanode Uuid <*> service to mesos-master-<*><*> <*> <*> <*> <*>,['5aaa3cec'],935
+Block pool Block pool BP-<*>-<*><*> (Datanode Uuid <*> service to mesos-master-<*><*> successfully registered with NN,['5ef13d01'],489
+Block pool Block pool BP-<*>-<*><*> (Datanode Uuid null) service to mesos-master-<*><*> successfully registered with NN,['58cad92a'],6
+Block pool storage directory /opt/hdfs/data/current/BP-<*>-<*><*> is not formatted for BP-<*>-<*>-<*>,['af1a9acc'],1
+Block pool storage directory /tmp/hadoop-hdfs/dfs/data/current/BP-<*>-<*><*> is not formatted for BP-<*>-<*>-<*>,['b542e430'],2
+Block pool storage directory <*> is not formatted for BP-<*>-<*>-<*>,['e2965de5'],50
+"BlockPool BP-<*>-<*><*> Total blocks: <*>, missing metadata files:<*>, missing block files:<*>, missing blocks in memory:<*>, mismatched blocks:<*>",['979bd337'],68470
+Cached dfsUsed found for /opt/hdfs/data/current/BP-<*>-<*><*>/current: <*>,['f5063326'],245
+Cached dfsUsed found for <*> <*>,['a9e867f9'],23
+Can't replicate block BP-<*>-<*><*>:<*>_<*> because on-disk length <*> is shorter than NameNode recorded length <*>,['ca506fe8'],3
+ChunkedInput.isEndOfInput() failed,['0ba81525'],2
+Configured hostname is mesos-master-<*>,['30258917'],38
+Configured hostname is mesos-slave-<*>,['ffd414e5'],402
+Could not get disk usage information,['3a12fa6a'],2
+DataNode metrics system started,['ea28bb80'],440
+"DataNode{data=FSDataset{dirpath='[/opt/hdfs/data/current]'}, localName='mesos-master-<*>:<*>', datanodeUuid='d9ef1b17-<*>-4cd8-91eb-095413c3427f', xmitsInProgress=<*>}:Exception transfering block BP-<*>-<*><*>:<*>_<*> to mirror <*> java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for read. ch : java.nio.channels.SocketChannel[connected local=<*> remote=<*>]",['a7bdb91b'],1
+"DataNode{data=FSDataset{dirpath='[/opt/hdfs/data/current]'}, localName='mesos-slave-<*>:<*>', datanodeUuid='7fe0f580-2b25-40c8-b236-c5df5dd08ca7', xmitsInProgress=<*>}:Exception transfering block BP-<*>-<*><*>:<*>_<*> to mirror <*> java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for read. ch : java.nio.channels.SocketChannel[connected local=<*> remote=<*>]",['b1d98bad'],1
+DataTransfer: Transmitted BP-<*>-<*><*>:<*>_<*> (numBytes=<*>) to <*>,['c9b3b5cf'],528451
+Datanode <*> forwarding connect ack to upstream firstbadlink is <*>,['15bddd6b'],1
+Datanode <*> got response for connect ack from downstream datanode with firstbadlink as <*>,['53df285c'],1
+DatanodeCommand action : DNA_REGISTER from mesos-master-<*><*> with active state,['d5bc1829'],58
+"DatanodeRegistration(<*>, datanodeUuid=0cbb6590-6a63-4e8d-b6fc-68bf01abba58, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['771608af'],24484
+"DatanodeRegistration(<*>, datanodeUuid=0cbb6590-6a63-4e8d-b6fc-68bf01abba58, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['4e48f506'],34
+"DatanodeRegistration(<*>, datanodeUuid=0cbb6590-6a63-4e8d-b6fc-68bf01abba58, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['f46258d5'],9
+"DatanodeRegistration(<*>, datanodeUuid=0cbb6590-6a63-4e8d-b6fc-68bf01abba58, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['12577391'],6
+"DatanodeRegistration(<*>, datanodeUuid=1e17ab02-baf4-<*>-88eb-bd036faa8cd3, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['a18ff65a'],24216
+"DatanodeRegistration(<*>, datanodeUuid=1e17ab02-baf4-<*>-88eb-bd036faa8cd3, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['2bc97bc2'],35
+"DatanodeRegistration(<*>, datanodeUuid=1e17ab02-baf4-<*>-88eb-bd036faa8cd3, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['472f6ee5'],14
+"DatanodeRegistration(<*>, datanodeUuid=1e17ab02-baf4-<*>-88eb-bd036faa8cd3, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Exception writing BP-<*>-<*><*>:<*>_<*> to mirror <*>",['be296da1'],1
+"DatanodeRegistration(<*>, datanodeUuid=1e17ab02-baf4-<*>-88eb-bd036faa8cd3, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['0b46e33d'],5
+"DatanodeRegistration(<*>, datanodeUuid=24324dad-05c2-478c-948f-459cb8677414, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['19203392'],23384
+"DatanodeRegistration(<*>, datanodeUuid=24324dad-05c2-478c-948f-459cb8677414, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['67c60a3a'],43
+"DatanodeRegistration(<*>, datanodeUuid=24324dad-05c2-478c-948f-459cb8677414, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['8603f7ae'],10
+"DatanodeRegistration(<*>, datanodeUuid=24324dad-05c2-478c-948f-459cb8677414, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['a64ee5fb'],1
+"DatanodeRegistration(<*>, datanodeUuid=2c1bdd15-d819-4dbe-aaa1-a0f8912a90e1, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['fc991038'],21277
+"DatanodeRegistration(<*>, datanodeUuid=2c1bdd15-d819-4dbe-aaa1-a0f8912a90e1, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['fcb4d0e1'],35
+"DatanodeRegistration(<*>, datanodeUuid=2c1bdd15-d819-4dbe-aaa1-a0f8912a90e1, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['c4606bd8'],6
+"DatanodeRegistration(<*>, datanodeUuid=2c1bdd15-d819-4dbe-aaa1-a0f8912a90e1, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Exception writing BP-<*>-<*><*>:<*>_<*> to mirror <*>",['edb2d97a'],1
+"DatanodeRegistration(<*>, datanodeUuid=2c1bdd15-d819-4dbe-aaa1-a0f8912a90e1, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['86dee43b'],6
+"DatanodeRegistration(<*>, datanodeUuid=2cec2184-90ab-49f8-b712-7a3ac5cd83e8, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['fd14c7db'],17592
+"DatanodeRegistration(<*>, datanodeUuid=2cec2184-90ab-49f8-b712-7a3ac5cd83e8, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['273f09d3'],33
+"DatanodeRegistration(<*>, datanodeUuid=2cec2184-90ab-49f8-b712-7a3ac5cd83e8, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['4a5c7c87'],16
+"DatanodeRegistration(<*>, datanodeUuid=2cec2184-90ab-49f8-b712-7a3ac5cd83e8, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['71e99df7'],6
+"DatanodeRegistration(<*>, datanodeUuid=3dbfe17f-642e-40b5-<*>-cc848bcdf25d, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['bfbf74b1'],21991
+"DatanodeRegistration(<*>, datanodeUuid=3dbfe17f-642e-40b5-<*>-cc848bcdf25d, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['0297f3c2'],30
+"DatanodeRegistration(<*>, datanodeUuid=3dbfe17f-642e-40b5-<*>-cc848bcdf25d, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['0b403b2d'],14
+"DatanodeRegistration(<*>, datanodeUuid=3dbfe17f-642e-40b5-<*>-cc848bcdf25d, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['95435d7b'],10
+"DatanodeRegistration(<*>, datanodeUuid=42a30b39-d95f-4c29-a5a1-cec1d992a339, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['96b6afd9'],12023
+"DatanodeRegistration(<*>, datanodeUuid=42a30b39-d95f-4c29-a5a1-cec1d992a339, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['ed07b7d8'],6
+"DatanodeRegistration(<*>, datanodeUuid=4f8dd80e-ab80-41ad-b045-99cfeb1828d2, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['28ae614d'],19333
+"DatanodeRegistration(<*>, datanodeUuid=4f8dd80e-ab80-41ad-b045-99cfeb1828d2, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['b9658f8e'],37
+"DatanodeRegistration(<*>, datanodeUuid=4f8dd80e-ab80-41ad-b045-99cfeb1828d2, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['cfdc5ad5'],14
+"DatanodeRegistration(<*>, datanodeUuid=4f8dd80e-ab80-41ad-b045-99cfeb1828d2, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Exception writing BP-<*>-<*><*>:<*>_<*> to mirror <*>",['3c055605'],1
+"DatanodeRegistration(<*>, datanodeUuid=4f8dd80e-ab80-41ad-b045-99cfeb1828d2, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['b9fa9d72'],6
+"DatanodeRegistration(<*>, datanodeUuid=591c16fa-ef87-<*>-b3ba-13eb8191028f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['1056ecb4'],25949
+"DatanodeRegistration(<*>, datanodeUuid=591c16fa-ef87-<*>-b3ba-13eb8191028f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['4a76149e'],38
+"DatanodeRegistration(<*>, datanodeUuid=591c16fa-ef87-<*>-b3ba-13eb8191028f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['78693e06'],6
+"DatanodeRegistration(<*>, datanodeUuid=591c16fa-ef87-<*>-b3ba-13eb8191028f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Exception writing BP-<*>-<*><*>:<*>_<*> to mirror <*>",['6c3cd5a8'],1
+"DatanodeRegistration(<*>, datanodeUuid=591c16fa-ef87-<*>-b3ba-13eb8191028f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['65f3fa64'],4
+"DatanodeRegistration(<*>, datanodeUuid=696bb755-<*>-415a-8abd-b730d39cd282, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['e3be6386'],23450
+"DatanodeRegistration(<*>, datanodeUuid=696bb755-<*>-415a-8abd-b730d39cd282, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['339fdb62'],35
+"DatanodeRegistration(<*>, datanodeUuid=696bb755-<*>-415a-8abd-b730d39cd282, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['4071dea0'],5
+"DatanodeRegistration(<*>, datanodeUuid=696bb755-<*>-415a-8abd-b730d39cd282, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['0da0ed90'],10
+"DatanodeRegistration(<*>, datanodeUuid=6b07e51c-34ad-4e4c-<*>-86ae10eaf5b8, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['3acd183c'],23405
+"DatanodeRegistration(<*>, datanodeUuid=6b07e51c-34ad-4e4c-<*>-86ae10eaf5b8, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['8ba2c7bc'],40
+"DatanodeRegistration(<*>, datanodeUuid=6b07e51c-34ad-4e4c-<*>-86ae10eaf5b8, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['9bf45b61'],15
+"DatanodeRegistration(<*>, datanodeUuid=6b07e51c-34ad-4e4c-<*>-86ae10eaf5b8, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['62fef697'],7
+"DatanodeRegistration(<*>, datanodeUuid=6bb9fad8-<*>-45cb-839b-b929e90f4a6c, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['ec4466ea'],21437
+"DatanodeRegistration(<*>, datanodeUuid=6bb9fad8-<*>-45cb-839b-b929e90f4a6c, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['6627d64a'],18
+"DatanodeRegistration(<*>, datanodeUuid=6bb9fad8-<*>-45cb-839b-b929e90f4a6c, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['2cb3b0e0'],15
+"DatanodeRegistration(<*>, datanodeUuid=6bb9fad8-<*>-45cb-839b-b929e90f4a6c, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Exception writing BP-<*>-<*><*>:<*>_<*> to mirror <*>",['d72c3663'],1
+"DatanodeRegistration(<*>, datanodeUuid=6bb9fad8-<*>-45cb-839b-b929e90f4a6c, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['62c60e42'],2
+"DatanodeRegistration(<*>, datanodeUuid=6f633722-<*>-4ace-8c63-94b9829a3b13, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['92d88b86'],22287
+"DatanodeRegistration(<*>, datanodeUuid=6f633722-<*>-4ace-8c63-94b9829a3b13, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['018b43f5'],37
+"DatanodeRegistration(<*>, datanodeUuid=6f633722-<*>-4ace-8c63-94b9829a3b13, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['ff44e5f8'],10
+"DatanodeRegistration(<*>, datanodeUuid=6f633722-<*>-4ace-8c63-94b9829a3b13, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['12f4cb30'],5
+"DatanodeRegistration(<*>, datanodeUuid=763295e4-6a5f-4f00-a559-614cb9d92271, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['c80836d2'],10934
+"DatanodeRegistration(<*>, datanodeUuid=763295e4-6a5f-4f00-a559-614cb9d92271, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['440b66fa'],6
+"DatanodeRegistration(<*>, datanodeUuid=7fe0f580-2b25-40c8-b236-c5df5dd08ca7, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['f072fd4f'],22616
+"DatanodeRegistration(<*>, datanodeUuid=7fe0f580-2b25-40c8-b236-c5df5dd08ca7, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['55055a4d'],14
+"DatanodeRegistration(<*>, datanodeUuid=7fe0f580-2b25-40c8-b236-c5df5dd08ca7, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['c00d72b4'],11
+"DatanodeRegistration(<*>, datanodeUuid=7fe0f580-2b25-40c8-b236-c5df5dd08ca7, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['e9804540'],7
+"DatanodeRegistration(<*>, datanodeUuid=7fe0f580-2b25-40c8-b236-c5df5dd08ca7, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Got exception while serving BP-<*>-<*><*>:<*>_<*> to <*>",['dca2c5fe'],1
+"DatanodeRegistration(<*>, datanodeUuid=8414aed5-c683-<*>-83f1-716399c64f8f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['00e53423'],23853
+"DatanodeRegistration(<*>, datanodeUuid=8414aed5-c683-<*>-83f1-716399c64f8f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['d29d5650'],37
+"DatanodeRegistration(<*>, datanodeUuid=8414aed5-c683-<*>-83f1-716399c64f8f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['ac66e0d9'],11
+"DatanodeRegistration(<*>, datanodeUuid=8414aed5-c683-<*>-83f1-716399c64f8f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Exception writing BP-<*>-<*><*>:<*>_<*> to mirror <*>",['58756c31'],2
+"DatanodeRegistration(<*>, datanodeUuid=8414aed5-c683-<*>-83f1-716399c64f8f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['9e90c21b'],3
+"DatanodeRegistration(<*>, datanodeUuid=95a87747-ff24-41e2-<*>-0127a1675627, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['ddd449b6'],25560
+"DatanodeRegistration(<*>, datanodeUuid=95a87747-ff24-41e2-<*>-0127a1675627, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['8335d649'],37
+"DatanodeRegistration(<*>, datanodeUuid=95a87747-ff24-41e2-<*>-0127a1675627, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['1bbe8530'],9
+"DatanodeRegistration(<*>, datanodeUuid=95a87747-ff24-41e2-<*>-0127a1675627, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['f84c0645'],6
+"DatanodeRegistration(<*>, datanodeUuid=<*>-ccb8-49f2-<*>-437980cd5139, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['d1549704'],23615
+"DatanodeRegistration(<*>, datanodeUuid=<*>-ccb8-49f2-<*>-437980cd5139, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['c55f4e5b'],36
+"DatanodeRegistration(<*>, datanodeUuid=<*>-ccb8-49f2-<*>-437980cd5139, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['a061f345'],14
+"DatanodeRegistration(<*>, datanodeUuid=<*>-ccb8-49f2-<*>-437980cd5139, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['a2403f80'],5
+"DatanodeRegistration(<*>, datanodeUuid=ac6cb715-a2bc-<*>-aaa4-10fcbd1c390e, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['16cae7a4'],1319
+"DatanodeRegistration(<*>, datanodeUuid=ac6cb715-a2bc-<*>-aaa4-10fcbd1c390e, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['cb2a0d75'],12
+"DatanodeRegistration(<*>, datanodeUuid=bc724d4c-<*>-4cf7-85a2-552527e2d444, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['021d8297'],11203
+"DatanodeRegistration(<*>, datanodeUuid=bc724d4c-<*>-4cf7-85a2-552527e2d444, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['daf3198f'],36
+"DatanodeRegistration(<*>, datanodeUuid=bc724d4c-<*>-4cf7-85a2-552527e2d444, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['b91728a2'],14
+"DatanodeRegistration(<*>, datanodeUuid=bc724d4c-<*>-4cf7-85a2-552527e2d444, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['15ffd2e4'],3
+"DatanodeRegistration(<*>, datanodeUuid=c3a1996d-957e-<*>-91a7-6dd48549cb57, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['a02e4ce3'],25239
+"DatanodeRegistration(<*>, datanodeUuid=c3a1996d-957e-<*>-91a7-6dd48549cb57, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['756f384e'],38
+"DatanodeRegistration(<*>, datanodeUuid=c3a1996d-957e-<*>-91a7-6dd48549cb57, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['7b52448c'],8
+"DatanodeRegistration(<*>, datanodeUuid=c3a1996d-957e-<*>-91a7-6dd48549cb57, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['53db5283'],3
+"DatanodeRegistration(<*>, datanodeUuid=c5c0b742-2b9e-43f2-ba3a-91fd3f3972c4, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['9c32835e'],20792
+"DatanodeRegistration(<*>, datanodeUuid=c5c0b742-2b9e-43f2-ba3a-91fd3f3972c4, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['a46e69b2'],42
+"DatanodeRegistration(<*>, datanodeUuid=c5c0b742-2b9e-43f2-ba3a-91fd3f3972c4, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['8162681a'],16
+"DatanodeRegistration(<*>, datanodeUuid=c5c0b742-2b9e-43f2-ba3a-91fd3f3972c4, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Exception writing BP-<*>-<*><*>:<*>_<*> to mirror <*>",['763fa8be'],1
+"DatanodeRegistration(<*>, datanodeUuid=c5c0b742-2b9e-43f2-ba3a-91fd3f3972c4, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['26c8a078'],7
+"DatanodeRegistration(<*>, datanodeUuid=ca4dcde5-<*>-4c3e-<*>-a622e243c369, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['03ffb9cf'],11350
+"DatanodeRegistration(<*>, datanodeUuid=ca4dcde5-<*>-4c3e-<*>-a622e243c369, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['83d23760'],3
+"DatanodeRegistration(<*>, datanodeUuid=cf186bb5-4e79-4aaf-abd3-6d420db25497, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['bbdb80da'],23955
+"DatanodeRegistration(<*>, datanodeUuid=cf186bb5-4e79-4aaf-abd3-6d420db25497, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['56b6cdb8'],34
+"DatanodeRegistration(<*>, datanodeUuid=cf186bb5-4e79-4aaf-abd3-6d420db25497, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['d4730bc2'],7
+"DatanodeRegistration(<*>, datanodeUuid=cf186bb5-4e79-4aaf-abd3-6d420db25497, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['b5296191'],12
+"DatanodeRegistration(<*>, datanodeUuid=cfd79aa1-45f8-4e65-ad3a-96b42cd4bad2, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['a30148b5'],22866
+"DatanodeRegistration(<*>, datanodeUuid=cfd79aa1-45f8-4e65-ad3a-96b42cd4bad2, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['0d22c5d5'],44
+"DatanodeRegistration(<*>, datanodeUuid=cfd79aa1-45f8-4e65-ad3a-96b42cd4bad2, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['0c7d55b6'],8
+"DatanodeRegistration(<*>, datanodeUuid=cfd79aa1-45f8-4e65-ad3a-96b42cd4bad2, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['53a8d6c7'],6
+"DatanodeRegistration(<*>, datanodeUuid=d3664f15-838b-<*>-acec-e768d4d38aa9, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['37e8198d'],8046
+"DatanodeRegistration(<*>, datanodeUuid=d3664f15-838b-<*>-acec-e768d4d38aa9, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['d2037aaf'],35
+"DatanodeRegistration(<*>, datanodeUuid=d3664f15-838b-<*>-acec-e768d4d38aa9, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['df7cb07a'],10
+"DatanodeRegistration(<*>, datanodeUuid=d3664f15-838b-<*>-acec-e768d4d38aa9, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['49075907'],7
+"DatanodeRegistration(<*>, datanodeUuid=d9ef1b17-<*>-4cd8-91eb-095413c3427f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['475781d0'],2515
+"DatanodeRegistration(<*>, datanodeUuid=d9ef1b17-<*>-4cd8-91eb-095413c3427f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['f9f5170a'],4
+"DatanodeRegistration(<*>, datanodeUuid=d9ef1b17-<*>-4cd8-91eb-095413c3427f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['a6edd0f0'],1
+"DatanodeRegistration(<*>, datanodeUuid=d9ef1b17-<*>-4cd8-91eb-095413c3427f, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Got exception while serving BP-<*>-<*><*>:<*>_<*> to <*>",['d3a82b60'],1
+"DatanodeRegistration(<*>, datanodeUuid=f80a7bac-b6b5-4c05-a6b8-e78c2c7aa549, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*>",['bac830a8'],12807
+"DatanodeRegistration(<*>, datanodeUuid=f80a7bac-b6b5-4c05-a6b8-e78c2c7aa549, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*>",['07c88ed9'],38
+"DatanodeRegistration(<*>, datanodeUuid=f80a7bac-b6b5-4c05-a6b8-e78c2c7aa549, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>) Starting thread to transfer BP-<*>-<*><*>:<*>_<*> to <*> <*> <*> <*> <*> <*> <*>",['fe516f57'],10
+"DatanodeRegistration(<*>, datanodeUuid=f80a7bac-b6b5-4c05-a6b8-e78c2c7aa549, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Exception writing BP-<*>-<*><*>:<*>_<*> to mirror <*>",['79969746'],2
+"DatanodeRegistration(<*>, datanodeUuid=f80a7bac-b6b5-4c05-a6b8-e78c2c7aa549, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-254fec23-fa57-<*>-<*>-92d5cf14cc2e;nsid=<*>;c=<*>):Failed to transfer BP-<*>-<*><*>:<*>_<*> to <*> got",['f7cb1c17'],8
+Deleted BP-<*>-<*><*> <*>_<*> file <*>,['b996505f'],6104252
+Detected pause in JVM or host machine (eg GC): pause of approximately 1237ms,['04e20c9f'],1
+Detected pause in JVM or host machine (eg GC): pause of approximately <*>,['1b3c3c3c'],1096
+Ending block pool service for: Block pool <registering> (Datanode Uuid unassigned) service to mesos-master-<*><*>,['30dd0e51'],2
+Exception for BP-<*>-<*><*>:<*>_<*>,['aa4c59a4'],4
+Exiting Datanode,['198f22fa'],2
+Exiting with status <*>,['c8024795'],2
+Failed to delete replica <*>_<*>: ReplicaInfo not found.,['6a53178d'],29
+FileNotFound while finding block BP-<*>-<*><*>:<*>_<*> on volume /opt/hdfs/data,['21d17dc7'],152
+For namenode mesos-master-<*><*> using DELETEREPORT_INTERVAL of <*> msec BLOCKREPORT_INTERVAL of 21600000msec CACHEREPORT_INTERVAL of 10000msec Initial delay: 0msec; heartBeatInterval=<*>,['54b32c16'],437
+Formatting ...,['59b3f5f5'],106
+Formatting block pool BP-<*>-<*><*> directory /opt/hdfs/data/current/BP-<*>-<*><*>/current,['5bf305d7'],1
+Formatting block pool BP-<*>-<*><*> directory /tmp/hadoop-hdfs/dfs/data/current/BP-<*>-<*><*>/current,['6e605019'],2
+Formatting block pool BP-<*>-<*><*> directory <*>,['6312c53f'],50
+Generated and persisted new Datanode UUID 1a453054-c1df-46ec-<*>-e1fb6ced9cb<*>,['71941bf2'],1
+Generated and persisted new Datanode UUID <*>,['7cbe50ca'],50
+Generated and persisted new Datanode UUID d9ef1b17-<*>-4cd8-91eb-095413c3427f,['6f3c697b'],1
+Generated and persisted new Datanode UUID e659dd9a-5d49-41bb-<*>-7530e20218b<*>,['ef4a7504'],1
+Got finalize command for block pool BP-<*>-<*>-<*>,['c05e77b0'],68745
+Http request log for http.requests.datanode is not defined,['ae24104c'],440
+IOException in <*>,['c87262a2'],88
+IOException in BlockReceiver constructor. Cause is,['882df88d'],1
+IOException in offerService,['9bc8e9e2'],447416
+IPC Server Responder: starting,['ccc17099'],440
+IPC Server listener on <*>: starting,['73b103d7'],440
+Initialization failed for Block pool <registering> (Datanode Uuid unassigned) service to mesos-master-<*><*>. Exiting.,['4c33afa2'],2
+Initialized block scanner with targetBytesPerSec <*>,['36c4eccc'],440
+Invalid directory in: /opt/hdfs/data/current/BP-<*>-<*><*>: Operation not permitted,['0f2ea3b9'],28
+Jetty bound to port <*>,['8aa20788'],440
+"Likely the client has stopped reading, disconnecting it (mesos-master-<*>:<*>:DataXceiver error processing READ_BLOCK operation src: <*> dst: <*>); java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for write. ch : java.nio.channels.SocketChannel[connected local=<*> remote=<*>]",['f017e8b6'],1
+"Likely the client has stopped reading, disconnecting it (mesos-slave-<*>:<*>:DataXceiver error processing READ_BLOCK operation src: <*> dst: <*>); java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for write. ch : java.nio.channels.SocketChannel[connected local=<*> remote=<*>]",['939e593c'],2
+Listening HTTP traffic on <*>,['c7c8b64d'],440
+Lock on /opt/hdfs/data/in_use.lock acquired by nodename <*>@mesos-master-<*>,['8aa6035b'],6
+Lock on <*> acquired by nodename <*>@mesos-master-<*>,['c4082872'],32
+Lock on <*> acquired by nodename <*>@mesos-slave-<*>,['fd985bbf'],401
+Locking is disabled for /opt/hdfs/data/current/BP-<*>-<*>-<*>,['31fbd115'],6
+Locking is disabled for <*>,['2763a875'],431
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog,['a79a1702'],440
+Namenode Block pool BP-<*>-<*><*> (Datanode Uuid <*> service to mesos-master-<*><*> trying to claim ACTIVE state with txid=<*>,['9ed23455'],431
+Namenode Block pool BP-<*>-<*><*> (Datanode Uuid d9ef1b17-<*>-4cd8-91eb-095413c3427f) service to mesos-master-<*><*> trying to claim ACTIVE state with txid=<*>,['83507df9'],6
+"Now rescanning bpid BP-<*>-<*><*> on volume /opt/hdfs/data, after more than <*> hour(s)",['3bc46c1f'],204
+Now scanning bpid BP-<*>-<*><*> on volume /opt/hdfs/data,['381f2bd9'],1
+Now scanning bpid BP-<*>-<*><*> on volume /tmp/hadoop-hdfs/dfs/data,['a3691cec'],2
+Now scanning bpid BP-<*>-<*><*> on volume <*>,['38db2205'],50
+Number threads for balancing is <*>,['54f5a3a6'],440
+Opened <*> server at <*>,['3d7fb32e'],880
+"PacketResponder: BP-<*>-<*><*>:<*>_<*>, type=HAS_DOWNSTREAM_IN_PIPELINE",['069cd6a0'],2
+"PacketResponder: BP-<*>-<*><*>:<*>_<*>, type=HAS_DOWNSTREAM_IN_PIPELINE terminating",['321945eb'],4449295
+"PacketResponder: BP-<*>-<*><*>:<*>_<*>, type=HAS_DOWNSTREAM_IN_PIPELINE: Thread is interrupted.",['176e00fc'],1
+"PacketResponder: BP-<*>-<*><*>:<*>_<*>, type=LAST_IN_PIPELINE, downstreams=<*>:[] terminating",['df560bef'],2205879
+"PacketResponder: BP-<*>-<*><*>:<*>_<*>, type=LAST_IN_PIPELINE, downstreams=<*>:[]: Thread is interrupted.",['d52489fe'],2
+Periodic Directory Tree Verification scan starting at <*> with interval <*>,['510c9310'],437
+Problem connecting to server: mesos-master-<*><*>,['76e65afa'],4523
+RECEIVED SIGNAL <*>: SIGTERM,['daed45de'],303
+Received BP-<*>-<*><*>:<*>_<*> src: <*> dest: <*> of size <*>,['68dfe22e'],529628
+Receiving BP-<*>-<*><*>:<*>_<*> src: <*> dest: <*>,['b09deff7'],7184836
+Refresh request received for nameservices: null,['bcb7be44'],440
+Registered FSDatasetState MBean,['707f9c7d'],437
+Removed Block pool <registering> (Datanode Uuid unassigned),['ca625098'],2
+Restored <*> block files from trash.,['969b5bfb'],437
+Retrying connect to server: mesos-master-<*><*>. Already tried <*> time(s); maxRetries=<*>,['acafd375'],162
+"Retrying connect to server: mesos-master-<*><*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)",['912eaab0'],4461164
+"Retrying2016-<*>-<*> <*>:<*>:<*>,<*> INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG:",['e7ee43bd'],1
+SHUTDOWN_MSG:,['63c85797'],305
+STARTUP_MSG:,['b1bf6bd0'],439
+Scanning block pool BP-<*>-<*><*> on volume /opt/hdfs/data/current...,['8f9964c3'],6
+Scanning block pool BP-<*>-<*><*> on volume <*>,['d8b875c3'],431
+Scheduled snapshot period at <*> second(s).,['4dc89700'],440
+Scheduling <*>_<*> file <*> for deletion,['68a678e2'],6104252
+Setting up storage: <*>,['108790b9'],437
+Slow BlockReceiver write data to disk <*> (threshold=300ms),['148caa3f'],6817
+Slow BlockReceiver write packet to mirror took <*> (threshold=300ms),['6660b6ef'],1747
+"Slow flushOrSync took 733ms (threshold=300ms), isSync:false, flushTotalNanos=732814790ns",['38fab6d5'],1
+"Slow flushOrSync took <*> (threshold=300ms), isSync:false, <*>",['014471e3'],673
+Slow manageWriterOsCache took 478ms (threshold=300ms),['0063079d'],1
+Slow manageWriterOsCache took <*> (threshold=300ms),['9853c6c7'],3494
+Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:<*>,['28a5c1a3'],440
+Starting BPOfferServices for nameservices: <default>,['1418307a'],440
+Starting CheckDiskError Thread,['ba519ac1'],32
+Starting DataNode with maxLockedMemory = <*>,['ace4c92c'],440
+Starting Socket Reader #<*> for port <*>,['70066a26'],440
+Storage directory /opt/hdfs/data is not formatted for BP-<*>-<*>-<*>,['5375bb30'],1
+Storage directory /tmp/hadoop-hdfs/dfs/data is not formatted for BP-<*>-<*>-<*>,['ea43c871'],2
+Storage directory <*> is not formatted for BP-<*>-<*>-<*>,['65223769'],50
+"Successfully sent block report <*> containing <*> storage report(s), of which we sent <*>. The reports had <*> total blocks and used <*> RPC(s). This took <*> msec to generate and <*> msecs for RPC and NN processing. Got back one command: FinalizeCommand/<*>.",['d28ff9a5'],68745
+Time taken to scan block pool BP-<*>-<*><*> on /opt/hdfs/data/current: <*>,['91886cdf'],6
+Time taken to scan block pool BP-<*>-<*><*> on <*> <*>,['41c61f4e'],431
+Time to add replicas to map for block pool BP-<*>-<*><*> on volume /opt/hdfs/data/current: <*>,['2e303e5e'],6
+Time to add replicas to map for block pool BP-<*>-<*><*> on volume <*> <*>,['c62d5acb'],431
+Took 2090ms to process <*> commands from NN,['17087708'],1
+Took 3166ms to process <*> commands from NN,['578bb6f5'],1
+Took 3317ms to process <*> commands from NN,['571e7646'],1
+Took 4385ms to process <*> commands from NN,['b05f3f10'],1
+Took <*> to process <*> commands from NN,['25fe5db3'],161
+Total time to add all replicas to map: <*>,['075fbe33'],437
+Total time to scan all replicas for block pool BP-<*>-<*><*>: <*>,['025361b9'],437
+"Unable to initialize FileSignerSecretProvider, falling back to use random secrets.",['6c498ce4'],440
+"Unsuccessfully sent block report 0x601b7f68750a01, containing <*> storage report(s), of which we sent <*>. The reports had <*> total blocks and used <*> RPC(s). This took <*> msec to generate and <*> msecs for RPC and NN processing. Got back no commands.",['633a57a3'],1
+"Unsuccessfully sent block report 0x604318dfed0947, containing <*> storage report(s), of which we sent <*>. The reports had <*> total blocks and used <*> RPC(s). This took <*> msec to generate and <*> msecs for RPC and NN processing. Got back no commands.",['b15ea2c3'],1
+"Unsuccessfully sent block report 0x6070f986135f57, containing <*> storage report(s), of which we sent <*>. The reports had <*> total blocks and used <*> RPC(s). This took <*> msec to generate and <*> msecs for RPC and NN processing. Got back no commands.",['6aff6fc9'],1
+"Unsuccessfully sent block report 0x60aa17c151c129, containing <*> storage report(s), of which we sent <*>. The reports had <*> total blocks and used <*> RPC(s). This took <*> msec to generate and <*> msecs for RPC and NN processing. Got back no commands.",['25691053'],1
+"Unsuccessfully sent block report <*> containing <*> storage report(s), of which we sent <*>. The reports had <*> total blocks and used <*> RPC(s). This took <*> msec to generate and <*> msecs for RPC and NN processing. Got back no commands.",['0070f403'],78
+Using callQueue class java.util.concurrent.LinkedBlockingQueue,['916d4a74'],440
+"VolumeScanner(/opt/hdfs/data, DS-0e51b58c-f127-4def-83f9-fe88d5536e52) exiting because of exception",['76ebf809'],2
+"VolumeScanner(/opt/hdfs/data, DS-0e51b58c-f127-4def-83f9-fe88d5536e52) exiting.",['226c9f09'],2
+"VolumeScanner(/opt/hdfs/data, DS-0e51b58c-f127-4def-83f9-fe88d5536e52): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['3e910680'],211
+"VolumeScanner(/opt/hdfs/data, DS-0e51b58c-f127-4def-83f9-fe88d5536e52): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['0d3e1d3d'],222
+"VolumeScanner(/opt/hdfs/data, DS-0e51b58c-f127-4def-83f9-fe88d5536e52): finished scanning block pool BP-<*>-<*>-<*>",['7662518b'],5
+"VolumeScanner(/opt/hdfs/data, DS-0e51b58c-f127-4def-83f9-fe88d5536e52): no suitable block pools found to scan. Waiting <*> ms.",['5ebeed61'],11
+"VolumeScanner(/opt/hdfs/data, DS-0e51b58c-f127-4def-83f9-fe88d5536e52): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['be6bd8c1'],580
+"VolumeScanner(/opt/hdfs/data, DS-11caa2db-d7fa-4e34-<*>-e6b4ed7de3ec) exiting because of exception",['05eba6c8'],6
+"VolumeScanner(/opt/hdfs/data, DS-11caa2db-d7fa-4e34-<*>-e6b4ed7de3ec) exiting.",['08575877'],6
+"VolumeScanner(/opt/hdfs/data, DS-11caa2db-d7fa-4e34-<*>-e6b4ed7de3ec): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['95d986fa'],273
+"VolumeScanner(/opt/hdfs/data, DS-11caa2db-d7fa-4e34-<*>-e6b4ed7de3ec): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['27b2f691'],293
+"VolumeScanner(/opt/hdfs/data, DS-11caa2db-d7fa-4e34-<*>-e6b4ed7de3ec): finished scanning block pool BP-<*>-<*>-<*>",['ff8ad496'],6
+"VolumeScanner(/opt/hdfs/data, DS-11caa2db-d7fa-4e34-<*>-e6b4ed7de3ec): no suitable block pools found to scan. Waiting <*> ms.",['8d0df6be'],40
+"VolumeScanner(/opt/hdfs/data, DS-11caa2db-d7fa-4e34-<*>-e6b4ed7de3ec): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['75e3ac67'],651
+"VolumeScanner(/opt/hdfs/data, DS-1480948f-1ba8-4e7b-84dd-54af75927c66) exiting because of exception",['881fa461'],2
+"VolumeScanner(/opt/hdfs/data, DS-1480948f-1ba8-4e7b-84dd-54af75927c66) exiting.",['46efed7c'],2
+"VolumeScanner(/opt/hdfs/data, DS-1480948f-1ba8-4e7b-84dd-54af75927c66): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['21fcc1d9'],324
+"VolumeScanner(/opt/hdfs/data, DS-1480948f-1ba8-4e7b-84dd-54af75927c66): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['e7165d30'],182
+"VolumeScanner(/opt/hdfs/data, DS-1480948f-1ba8-4e7b-84dd-54af75927c66): finished scanning block pool BP-<*>-<*>-<*>",['c8dc2f3d'],5
+"VolumeScanner(/opt/hdfs/data, DS-1480948f-1ba8-4e7b-84dd-54af75927c66): no suitable block pools found to scan. Waiting <*> ms.",['d863add0'],8
+"VolumeScanner(/opt/hdfs/data, DS-1480948f-1ba8-4e7b-84dd-54af75927c66): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['01e0162d'],785
+"VolumeScanner(/opt/hdfs/data, DS-19583ec0-99ea-4dcc-b1c1-601e561bc714) exiting because of exception",['897638b1'],6
+"VolumeScanner(/opt/hdfs/data, DS-19583ec0-99ea-4dcc-b1c1-601e561bc714) exiting.",['66986777'],6
+"VolumeScanner(/opt/hdfs/data, DS-19583ec0-99ea-4dcc-b1c1-601e561bc714): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['1b2d8314'],483
+"VolumeScanner(/opt/hdfs/data, DS-19583ec0-99ea-4dcc-b1c1-601e561bc714): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['bc9d5fb2'],257
+"VolumeScanner(/opt/hdfs/data, DS-19583ec0-99ea-4dcc-b1c1-601e561bc714): finished scanning block pool BP-<*>-<*>-<*>",['fc8fc0dc'],5
+"VolumeScanner(/opt/hdfs/data, DS-19583ec0-99ea-4dcc-b1c1-601e561bc714): no suitable block pools found to scan. Waiting <*> ms.",['b655390b'],17
+"VolumeScanner(/opt/hdfs/data, DS-19583ec0-99ea-4dcc-b1c1-601e561bc714): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['244f9b87'],652
+"VolumeScanner(/opt/hdfs/data, DS-195b1adf-7b35-<*>-810b-79326b3c20e7) exiting because of exception",['fc6a5ef7'],2
+"VolumeScanner(/opt/hdfs/data, DS-195b1adf-7b35-<*>-810b-79326b3c20e7) exiting.",['608ba4b4'],2
+"VolumeScanner(/opt/hdfs/data, DS-195b1adf-7b35-<*>-810b-79326b3c20e7): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['ee38675b'],547
+"VolumeScanner(/opt/hdfs/data, DS-195b1adf-7b35-<*>-810b-79326b3c20e7): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['4547640e'],257
+"VolumeScanner(/opt/hdfs/data, DS-195b1adf-7b35-<*>-810b-79326b3c20e7): finished scanning block pool BP-<*>-<*>-<*>",['5ae29428'],5
+"VolumeScanner(/opt/hdfs/data, DS-195b1adf-7b35-<*>-810b-79326b3c20e7): no suitable block pools found to scan. Waiting <*> ms.",['916e22f8'],13
+"VolumeScanner(/opt/hdfs/data, DS-195b1adf-7b35-<*>-810b-79326b3c20e7): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['5afb20a6'],641
+"VolumeScanner(/opt/hdfs/data, DS-34c73160-<*>-47e8-<*>-c2d586e24001) exiting because of exception",['2f67db2a'],6
+"VolumeScanner(/opt/hdfs/data, DS-34c73160-<*>-47e8-<*>-c2d586e24001) exiting.",['5f1c6762'],6
+"VolumeScanner(/opt/hdfs/data, DS-34c73160-<*>-47e8-<*>-c2d586e24001): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['c8752c79'],533
+"VolumeScanner(/opt/hdfs/data, DS-34c73160-<*>-47e8-<*>-c2d586e24001): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['19882f37'],251
+"VolumeScanner(/opt/hdfs/data, DS-34c73160-<*>-47e8-<*>-c2d586e24001): finished scanning block pool BP-<*>-<*>-<*>",['a2654290'],6
+"VolumeScanner(/opt/hdfs/data, DS-34c73160-<*>-47e8-<*>-c2d586e24001): no suitable block pools found to scan. Waiting <*> ms.",['752d03a7'],16
+"VolumeScanner(/opt/hdfs/data, DS-34c73160-<*>-47e8-<*>-c2d586e24001): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['080e4455'],1579
+"VolumeScanner(/opt/hdfs/data, DS-38d42681-e839-47b4-b2e3-495cfc28cbab) exiting because of exception",['bd3abf11'],6
+"VolumeScanner(/opt/hdfs/data, DS-38d42681-e839-47b4-b2e3-495cfc28cbab) exiting.",['ac3834eb'],6
+"VolumeScanner(/opt/hdfs/data, DS-38d42681-e839-47b4-b2e3-495cfc28cbab): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['c6c3bba8'],360
+"VolumeScanner(/opt/hdfs/data, DS-38d42681-e839-47b4-b2e3-495cfc28cbab): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['70c67225'],245
+"VolumeScanner(/opt/hdfs/data, DS-38d42681-e839-47b4-b2e3-495cfc28cbab): finished scanning block pool BP-<*>-<*>-<*>",['2036b66a'],6
+"VolumeScanner(/opt/hdfs/data, DS-38d42681-e839-47b4-b2e3-495cfc28cbab): no suitable block pools found to scan. Waiting <*> ms.",['b9c6dc97'],17
+"VolumeScanner(/opt/hdfs/data, DS-38d42681-e839-47b4-b2e3-495cfc28cbab): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['5e233542'],960
+"VolumeScanner(/opt/hdfs/data, DS-44fcd72c-68b5-4c2d-a193-0777cacd76d3) exiting because of exception",['7bb598ba'],6
+"VolumeScanner(/opt/hdfs/data, DS-44fcd72c-68b5-4c2d-a193-0777cacd76d3) exiting.",['0f73756e'],6
+"VolumeScanner(/opt/hdfs/data, DS-44fcd72c-68b5-4c2d-a193-0777cacd76d3): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['e677a01f'],342
+"VolumeScanner(/opt/hdfs/data, DS-44fcd72c-68b5-4c2d-a193-0777cacd76d3): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['59edd73a'],655
+"VolumeScanner(/opt/hdfs/data, DS-44fcd72c-68b5-4c2d-a193-0777cacd76d3): finished scanning block pool BP-<*>-<*>-<*>",['868def29'],6
+"VolumeScanner(/opt/hdfs/data, DS-44fcd72c-68b5-4c2d-a193-0777cacd76d3): no suitable block pools found to scan. Waiting <*> ms.",['33780809'],17
+"VolumeScanner(/opt/hdfs/data, DS-44fcd72c-68b5-4c2d-a193-0777cacd76d3): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['53d52e40'],1200
+"VolumeScanner(/opt/hdfs/data, DS-5bc4e474-3d2b-4ca4-bea0-956ccd80a9a6) exiting because of exception",['320463e6'],5
+"VolumeScanner(/opt/hdfs/data, DS-5bc4e474-3d2b-4ca4-bea0-956ccd80a9a6) exiting.",['26522327'],5
+"VolumeScanner(/opt/hdfs/data, DS-5bc4e474-3d2b-4ca4-bea0-956ccd80a9a6): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['cfaa935f'],351
+"VolumeScanner(/opt/hdfs/data, DS-5bc4e474-3d2b-4ca4-bea0-956ccd80a9a6): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['f3883ebf'],296
+"VolumeScanner(/opt/hdfs/data, DS-5bc4e474-3d2b-4ca4-bea0-956ccd80a9a6): finished scanning block pool BP-<*>-<*>-<*>",['537ced24'],16
+"VolumeScanner(/opt/hdfs/data, DS-5bc4e474-3d2b-4ca4-bea0-956ccd80a9a6): no suitable block pools found to scan. Waiting <*> ms.",['13ca9ad8'],60
+"VolumeScanner(/opt/hdfs/data, DS-5bc4e474-3d2b-4ca4-bea0-956ccd80a9a6): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['a363bea7'],815
+"VolumeScanner(/opt/hdfs/data, DS-6c637255-<*>-43f6-<*>-bec8b1cc7d42) exiting because of exception",['ecbf7849'],5
+"VolumeScanner(/opt/hdfs/data, DS-6c637255-<*>-43f6-<*>-bec8b1cc7d42) exiting.",['b293e19f'],5
+"VolumeScanner(/opt/hdfs/data, DS-6c637255-<*>-43f6-<*>-bec8b1cc7d42): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['8c05bc1e'],90
+"VolumeScanner(/opt/hdfs/data, DS-6c637255-<*>-43f6-<*>-bec8b1cc7d42): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['a370378c'],232
+"VolumeScanner(/opt/hdfs/data, DS-6c637255-<*>-43f6-<*>-bec8b1cc7d42): finished scanning block pool BP-<*>-<*>-<*>",['edad8f65'],6
+"VolumeScanner(/opt/hdfs/data, DS-6c637255-<*>-43f6-<*>-bec8b1cc7d42): no suitable block pools found to scan. Waiting <*> ms.",['fcf58d1d'],17
+"VolumeScanner(/opt/hdfs/data, DS-6c637255-<*>-43f6-<*>-bec8b1cc7d42): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['4f0f9098'],760
+"VolumeScanner(/opt/hdfs/data, DS-76445d18-d454-4ea4-ba1d-34302a85a21d) exiting because of exception",['cda340f2'],6
+"VolumeScanner(/opt/hdfs/data, DS-76445d18-d454-4ea4-ba1d-34302a85a21d) exiting.",['3b194b6a'],6
+"VolumeScanner(/opt/hdfs/data, DS-76445d18-d454-4ea4-ba1d-34302a85a21d): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['0c7fca95'],294
+"VolumeScanner(/opt/hdfs/data, DS-76445d18-d454-4ea4-ba1d-34302a85a21d): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['54072ebb'],231
+"VolumeScanner(/opt/hdfs/data, DS-76445d18-d454-4ea4-ba1d-34302a85a21d): finished scanning block pool BP-<*>-<*>-<*>",['15617ba1'],6
+"VolumeScanner(/opt/hdfs/data, DS-76445d18-d454-4ea4-ba1d-34302a85a21d): no suitable block pools found to scan. Waiting <*> ms.",['6b6b13a3'],19
+"VolumeScanner(/opt/hdfs/data, DS-76445d18-d454-4ea4-ba1d-34302a85a21d): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['b2bf9d75'],810
+"VolumeScanner(/opt/hdfs/data, DS-7a6c123d-b84a-4edc-abf8-95308e85b571) exiting because of exception",['2549f44a'],5
+"VolumeScanner(/opt/hdfs/data, DS-7a6c123d-b84a-4edc-abf8-95308e85b571) exiting.",['dcb9d8be'],5
+"VolumeScanner(/opt/hdfs/data, DS-7a6c123d-b84a-4edc-abf8-95308e85b571): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['02541ffa'],308
+"VolumeScanner(/opt/hdfs/data, DS-7a6c123d-b84a-4edc-abf8-95308e85b571): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['844e461e'],253
+"VolumeScanner(/opt/hdfs/data, DS-7a6c123d-b84a-4edc-abf8-95308e85b571): finished scanning block pool BP-<*>-<*>-<*>",['6386dee1'],17
+"VolumeScanner(/opt/hdfs/data, DS-7a6c123d-b84a-4edc-abf8-95308e85b571): no suitable block pools found to scan. Waiting <*> ms.",['9ecd2816'],45
+"VolumeScanner(/opt/hdfs/data, DS-7a6c123d-b84a-4edc-abf8-95308e85b571): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['696bd32c'],836
+"VolumeScanner(/opt/hdfs/data, DS-8bc58371-b56b-4cac-ba6c-61d6a5ec2d05) exiting because of exception",['7fae880d'],6
+"VolumeScanner(/opt/hdfs/data, DS-8bc58371-b56b-4cac-ba6c-61d6a5ec2d05) exiting.",['67467d48'],6
+"VolumeScanner(/opt/hdfs/data, DS-8bc58371-b56b-4cac-ba6c-61d6a5ec2d05): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['2e057fe2'],295
+"VolumeScanner(/opt/hdfs/data, DS-8bc58371-b56b-4cac-ba6c-61d6a5ec2d05): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['1e37652d'],272
+"VolumeScanner(/opt/hdfs/data, DS-8bc58371-b56b-4cac-ba6c-61d6a5ec2d05): finished scanning block pool BP-<*>-<*>-<*>",['4aa9fd69'],6
+"VolumeScanner(/opt/hdfs/data, DS-8bc58371-b56b-4cac-ba6c-61d6a5ec2d05): no suitable block pools found to scan. Waiting <*> ms.",['a15f93fc'],17
+"VolumeScanner(/opt/hdfs/data, DS-8bc58371-b56b-4cac-ba6c-61d6a5ec2d05): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['3f4287fb'],1005
+"VolumeScanner(/opt/hdfs/data, DS-8de4ae37-fac2-404a-a8e3-dcecd440f907) exiting because of exception",['2793c4e0'],6
+"VolumeScanner(/opt/hdfs/data, DS-8de4ae37-fac2-404a-a8e3-dcecd440f907) exiting.",['0ad74539'],6
+"VolumeScanner(/opt/hdfs/data, DS-8de4ae37-fac2-404a-a8e3-dcecd440f907): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['44fc02d3'],323
+"VolumeScanner(/opt/hdfs/data, DS-8de4ae37-fac2-404a-a8e3-dcecd440f907): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['4c59506a'],266
+"VolumeScanner(/opt/hdfs/data, DS-8de4ae37-fac2-404a-a8e3-dcecd440f907): finished scanning block pool BP-<*>-<*>-<*>",['8ea02844'],8
+"VolumeScanner(/opt/hdfs/data, DS-8de4ae37-fac2-404a-a8e3-dcecd440f907): no suitable block pools found to scan. Waiting <*> ms.",['d51347ad'],24
+"VolumeScanner(/opt/hdfs/data, DS-8de4ae37-fac2-404a-a8e3-dcecd440f907): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['1e42c416'],861
+"VolumeScanner(/opt/hdfs/data, DS-8eaa8b25-0f80-<*>-acea-85157ebb9efc) exiting because of exception",['eb3f9dd1'],6
+"VolumeScanner(/opt/hdfs/data, DS-8eaa8b25-0f80-<*>-acea-85157ebb9efc) exiting.",['251461cc'],6
+"VolumeScanner(/opt/hdfs/data, DS-8eaa8b25-0f80-<*>-acea-85157ebb9efc): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['4f3e75de'],181
+"VolumeScanner(/opt/hdfs/data, DS-8eaa8b25-0f80-<*>-acea-85157ebb9efc): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['236bfdf6'],251
+"VolumeScanner(/opt/hdfs/data, DS-8eaa8b25-0f80-<*>-acea-85157ebb9efc): finished scanning block pool BP-<*>-<*>-<*>",['b673ace1'],6
+"VolumeScanner(/opt/hdfs/data, DS-8eaa8b25-0f80-<*>-acea-85157ebb9efc): no suitable block pools found to scan. Waiting <*> ms.",['25004ab3'],17
+"VolumeScanner(/opt/hdfs/data, DS-8eaa8b25-0f80-<*>-acea-85157ebb9efc): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['57498dac'],914
+"VolumeScanner(/opt/hdfs/data, DS-94864aae-c689-4aac-86cb-754ab8ffdd23) exiting because of exception",['38b22222'],6
+"VolumeScanner(/opt/hdfs/data, DS-94864aae-c689-4aac-86cb-754ab8ffdd23) exiting.",['02c0df40'],6
+"VolumeScanner(/opt/hdfs/data, DS-94864aae-c689-4aac-86cb-754ab8ffdd23): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['4f02b635'],548
+"VolumeScanner(/opt/hdfs/data, DS-94864aae-c689-4aac-86cb-754ab8ffdd23): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['2efe01a7'],295
+"VolumeScanner(/opt/hdfs/data, DS-94864aae-c689-4aac-86cb-754ab8ffdd23): finished scanning block pool BP-<*>-<*>-<*>",['36304b80'],6
+"VolumeScanner(/opt/hdfs/data, DS-94864aae-c689-4aac-86cb-754ab8ffdd23): no suitable block pools found to scan. Waiting <*> ms.",['83e8bf89'],19
+"VolumeScanner(/opt/hdfs/data, DS-94864aae-c689-4aac-86cb-754ab8ffdd23): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['73fd80ca'],1830
+"VolumeScanner(/opt/hdfs/data, DS-95002c56-707d-<*>-<*>-0183a98f8a44) exiting because of exception",['0e85af20'],5
+"VolumeScanner(/opt/hdfs/data, DS-95002c56-707d-<*>-<*>-0183a98f8a44) exiting.",['79d47cca'],5
+"VolumeScanner(/opt/hdfs/data, DS-95002c56-707d-<*>-<*>-0183a98f8a44): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['ea4c8e17'],391
+"VolumeScanner(/opt/hdfs/data, DS-95002c56-707d-<*>-<*>-0183a98f8a44): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['6a686211'],252
+"VolumeScanner(/opt/hdfs/data, DS-95002c56-707d-<*>-<*>-0183a98f8a44): finished scanning block pool BP-<*>-<*>-<*>",['1030b16a'],7
+"VolumeScanner(/opt/hdfs/data, DS-95002c56-707d-<*>-<*>-0183a98f8a44): no suitable block pools found to scan. Waiting <*> ms.",['9ef83e0b'],18
+"VolumeScanner(/opt/hdfs/data, DS-95002c56-707d-<*>-<*>-0183a98f8a44): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['cf15e2f7'],640
+"VolumeScanner(/opt/hdfs/data, DS-9a09120d-<*>-<*>-b289-cea074604f4a) exiting because of exception",['ef594152'],4
+"VolumeScanner(/opt/hdfs/data, DS-9a09120d-<*>-<*>-b289-cea074604f4a) exiting.",['a0c756ad'],4
+"VolumeScanner(/opt/hdfs/data, DS-9a09120d-<*>-<*>-b289-cea074604f4a): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['0980e033'],269
+"VolumeScanner(/opt/hdfs/data, DS-9a09120d-<*>-<*>-b289-cea074604f4a): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['32b13b4f'],285
+"VolumeScanner(/opt/hdfs/data, DS-9a09120d-<*>-<*>-b289-cea074604f4a): finished scanning block pool BP-<*>-<*>-<*>",['baacab76'],7
+"VolumeScanner(/opt/hdfs/data, DS-9a09120d-<*>-<*>-b289-cea074604f4a): no suitable block pools found to scan. Waiting <*> ms.",['ca92ac4b'],19
+"VolumeScanner(/opt/hdfs/data, DS-9a09120d-<*>-<*>-b289-cea074604f4a): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['b659ebb5'],2000
+"VolumeScanner(/opt/hdfs/data, DS-a0410d01-b2ce-49c7-ad6c-7373f9b7606b) exiting because of exception",['6daa9390'],5
+"VolumeScanner(/opt/hdfs/data, DS-a0410d01-b2ce-49c7-ad6c-7373f9b7606b) exiting.",['0afc94fd'],5
+"VolumeScanner(/opt/hdfs/data, DS-a0410d01-b2ce-49c7-ad6c-7373f9b7606b): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['c87385cf'],354
+"VolumeScanner(/opt/hdfs/data, DS-a0410d01-b2ce-49c7-ad6c-7373f9b7606b): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['15462d3a'],244
+"VolumeScanner(/opt/hdfs/data, DS-a0410d01-b2ce-49c7-ad6c-7373f9b7606b): finished scanning block pool BP-<*>-<*>-<*>",['2c61a9f7'],7
+"VolumeScanner(/opt/hdfs/data, DS-a0410d01-b2ce-49c7-ad6c-7373f9b7606b): no suitable block pools found to scan. Waiting <*> ms.",['884473ca'],18
+"VolumeScanner(/opt/hdfs/data, DS-a0410d01-b2ce-49c7-ad6c-7373f9b7606b): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['c62aae84'],1116
+"VolumeScanner(/opt/hdfs/data, DS-a1a5a67d-<*>-40ce-<*>-0d31e28f3de9) exiting because of exception",['b5202599'],5
+"VolumeScanner(/opt/hdfs/data, DS-a1a5a67d-<*>-40ce-<*>-0d31e28f3de9) exiting.",['02b8b8c8'],5
+"VolumeScanner(/opt/hdfs/data, DS-a1a5a67d-<*>-40ce-<*>-0d31e28f3de9): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['e6c4148a'],226
+"VolumeScanner(/opt/hdfs/data, DS-a1a5a67d-<*>-40ce-<*>-0d31e28f3de9): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['01736eff'],239
+"VolumeScanner(/opt/hdfs/data, DS-a1a5a67d-<*>-40ce-<*>-0d31e28f3de9): finished scanning block pool BP-<*>-<*>-<*>",['91b4e7d8'],7
+"VolumeScanner(/opt/hdfs/data, DS-a1a5a67d-<*>-40ce-<*>-0d31e28f3de9): no suitable block pools found to scan. Waiting <*> ms.",['23f8f90f'],17
+"VolumeScanner(/opt/hdfs/data, DS-a1a5a67d-<*>-40ce-<*>-0d31e28f3de9): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['d7a52aed'],795
+"VolumeScanner(/opt/hdfs/data, DS-ae5d34ab-b7b0-43b0-9cdd-5d7ccee7b2df) exiting because of exception",['75c1654c'],4
+"VolumeScanner(/opt/hdfs/data, DS-ae5d34ab-b7b0-43b0-9cdd-5d7ccee7b2df) exiting.",['ea76b782'],4
+"VolumeScanner(/opt/hdfs/data, DS-ae5d34ab-b7b0-43b0-9cdd-5d7ccee7b2df): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['97e7bc4e'],14
+"VolumeScanner(/opt/hdfs/data, DS-ae5d34ab-b7b0-43b0-9cdd-5d7ccee7b2df): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['eeba9c02'],20
+"VolumeScanner(/opt/hdfs/data, DS-ae5d34ab-b7b0-43b0-9cdd-5d7ccee7b2df): finished scanning block pool BP-<*>-<*>-<*>",['ffc28123'],11
+"VolumeScanner(/opt/hdfs/data, DS-ae5d34ab-b7b0-43b0-9cdd-5d7ccee7b2df): no suitable block pools found to scan. Waiting <*> ms.",['6e602aa3'],25
+"VolumeScanner(/opt/hdfs/data, DS-ae5d34ab-b7b0-43b0-9cdd-5d7ccee7b2df): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['3fb374b5'],25
+"VolumeScanner(/opt/hdfs/data, DS-bcc11f7f-7a07-4b2b-9bce-45ff247878dc) exiting because of exception",['f81dc538'],5
+"VolumeScanner(/opt/hdfs/data, DS-bcc11f7f-7a07-4b2b-9bce-45ff247878dc) exiting.",['b9e7fcdf'],5
+"VolumeScanner(/opt/hdfs/data, DS-bcc11f7f-7a07-4b2b-9bce-45ff247878dc): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['b3996efc'],317
+"VolumeScanner(/opt/hdfs/data, DS-bcc11f7f-7a07-4b2b-9bce-45ff247878dc): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['f22ea629'],249
+"VolumeScanner(/opt/hdfs/data, DS-bcc11f7f-7a07-4b2b-9bce-45ff247878dc): finished scanning block pool BP-<*>-<*>-<*>",['6a9ea33d'],6
+"VolumeScanner(/opt/hdfs/data, DS-bcc11f7f-7a07-4b2b-9bce-45ff247878dc): no suitable block pools found to scan. Waiting <*> ms.",['2c63c248'],18
+"VolumeScanner(/opt/hdfs/data, DS-bcc11f7f-7a07-4b2b-9bce-45ff247878dc): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['583edf0b'],1753
+"VolumeScanner(/opt/hdfs/data, DS-dbb4b57b-<*>-<*>-b455-c40d0a4fbe6b) exiting because of exception",['dad8b474'],6
+"VolumeScanner(/opt/hdfs/data, DS-dbb4b57b-<*>-<*>-b455-c40d0a4fbe6b) exiting.",['51fb94fa'],6
+"VolumeScanner(/opt/hdfs/data, DS-dbb4b57b-<*>-<*>-b455-c40d0a4fbe6b): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['f3f61fa0'],477
+"VolumeScanner(/opt/hdfs/data, DS-dbb4b57b-<*>-<*>-b455-c40d0a4fbe6b): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['e10cf5e4'],247
+"VolumeScanner(/opt/hdfs/data, DS-dbb4b57b-<*>-<*>-b455-c40d0a4fbe6b): finished scanning block pool BP-<*>-<*>-<*>",['d4bbd1e8'],6
+"VolumeScanner(/opt/hdfs/data, DS-dbb4b57b-<*>-<*>-b455-c40d0a4fbe6b): no suitable block pools found to scan. Waiting <*> ms.",['efda918c'],18
+"VolumeScanner(/opt/hdfs/data, DS-dbb4b57b-<*>-<*>-b455-c40d0a4fbe6b): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['7359136e'],1106
+"VolumeScanner(/opt/hdfs/data, DS-e4e85a3b-<*>-<*>-a632-b5b04f359dc3) exiting because of exception",['523a1e6c'],5
+"VolumeScanner(/opt/hdfs/data, DS-e4e85a3b-<*>-<*>-a632-b5b04f359dc3) exiting.",['bf11a7eb'],5
+"VolumeScanner(/opt/hdfs/data, DS-e4e85a3b-<*>-<*>-a632-b5b04f359dc3): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['b49816d2'],425
+"VolumeScanner(/opt/hdfs/data, DS-e4e85a3b-<*>-<*>-a632-b5b04f359dc3): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['1430905e'],353
+"VolumeScanner(/opt/hdfs/data, DS-e4e85a3b-<*>-<*>-a632-b5b04f359dc3): finished scanning block pool BP-<*>-<*>-<*>",['650e3aa8'],5
+"VolumeScanner(/opt/hdfs/data, DS-e4e85a3b-<*>-<*>-a632-b5b04f359dc3): no suitable block pools found to scan. Waiting <*> ms.",['973bbbb3'],16
+"VolumeScanner(/opt/hdfs/data, DS-e4e85a3b-<*>-<*>-a632-b5b04f359dc3): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['c1b97824'],1550
+"VolumeScanner(/opt/hdfs/data, DS-e9c6f5f2-d802-4e59-a09d-091ce3c604fc) exiting because of exception",['0b422129'],5
+"VolumeScanner(/opt/hdfs/data, DS-e9c6f5f2-d802-4e59-a09d-091ce3c604fc) exiting.",['de8a77f7'],5
+"VolumeScanner(/opt/hdfs/data, DS-e9c6f5f2-d802-4e59-a09d-091ce3c604fc): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['53a7b0d0'],381
+"VolumeScanner(/opt/hdfs/data, DS-e9c6f5f2-d802-4e59-a09d-091ce3c604fc): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['066d0ecf'],226
+"VolumeScanner(/opt/hdfs/data, DS-e9c6f5f2-d802-4e59-a09d-091ce3c604fc): finished scanning block pool BP-<*>-<*>-<*>",['82b685f0'],6
+"VolumeScanner(/opt/hdfs/data, DS-e9c6f5f2-d802-4e59-a09d-091ce3c604fc): no suitable block pools found to scan. Waiting <*> ms.",['750f1f68'],15
+"VolumeScanner(/opt/hdfs/data, DS-e9c6f5f2-d802-4e59-a09d-091ce3c604fc): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['8af7802f'],863
+"VolumeScanner(/opt/hdfs/data, DS-f1331212-<*>-4fd2-8c8d-bdeeec4566cc) exiting because of exception",['244d4c7d'],5
+"VolumeScanner(/opt/hdfs/data, DS-f1331212-<*>-4fd2-8c8d-bdeeec4566cc) exiting.",['a03fc692'],5
+"VolumeScanner(/opt/hdfs/data, DS-f1331212-<*>-4fd2-8c8d-bdeeec4566cc): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['625e529b'],656
+"VolumeScanner(/opt/hdfs/data, DS-f1331212-<*>-4fd2-8c8d-bdeeec4566cc): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['2bc36253'],283
+"VolumeScanner(/opt/hdfs/data, DS-f1331212-<*>-4fd2-8c8d-bdeeec4566cc): finished scanning block pool BP-<*>-<*>-<*>",['b7465612'],6
+"VolumeScanner(/opt/hdfs/data, DS-f1331212-<*>-4fd2-8c8d-bdeeec4566cc): no suitable block pools found to scan. Waiting <*> ms.",['b1e69a48'],19
+"VolumeScanner(/opt/hdfs/data, DS-f1331212-<*>-4fd2-8c8d-bdeeec4566cc): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['690d90cb'],1221
+"VolumeScanner(/opt/hdfs/data, DS-f3fe2187-b185-<*>-8fc2-53b08de7058c) exiting because of exception",['5968d65d'],5
+"VolumeScanner(/opt/hdfs/data, DS-f3fe2187-b185-<*>-8fc2-53b08de7058c) exiting.",['5bdc2086'],5
+"VolumeScanner(/opt/hdfs/data, DS-f3fe2187-b185-<*>-8fc2-53b08de7058c): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['361af99f'],623
+"VolumeScanner(/opt/hdfs/data, DS-f3fe2187-b185-<*>-8fc2-53b08de7058c): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['5e59f786'],1710
+"VolumeScanner(/opt/hdfs/data, DS-f3fe2187-b185-<*>-8fc2-53b08de7058c): finished scanning block pool BP-<*>-<*>-<*>",['57a0a2e8'],6
+"VolumeScanner(/opt/hdfs/data, DS-f3fe2187-b185-<*>-8fc2-53b08de7058c): no suitable block pools found to scan. Waiting <*> ms.",['a8ce3fcd'],41
+"VolumeScanner(/opt/hdfs/data, DS-f3fe2187-b185-<*>-8fc2-53b08de7058c): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['ce19057b'],5187
+"VolumeScanner(/opt/hdfs/data, DS-f790b728-1e6a-46a8-8ce4-f8d0038a603b) exiting because of exception",['869f0243'],2
+"VolumeScanner(/opt/hdfs/data, DS-f790b728-1e6a-46a8-8ce4-f8d0038a603b) exiting.",['1ce8abfa'],2
+"VolumeScanner(/opt/hdfs/data, DS-f790b728-1e6a-46a8-8ce4-f8d0038a603b): Not scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning, because we rescanned it recently.",['b01ffea2'],7414
+"VolumeScanner(/opt/hdfs/data, DS-f790b728-1e6a-46a8-8ce4-f8d0038a603b): Scheduling suspect block BP-<*>-<*><*>:<*>_<*> for rescanning.",['32b05f67'],1774
+"VolumeScanner(/opt/hdfs/data, DS-f790b728-1e6a-46a8-8ce4-f8d0038a603b): finished scanning block pool BP-<*>-<*>-<*>",['fbe9fd8e'],14
+"VolumeScanner(/opt/hdfs/data, DS-f790b728-1e6a-46a8-8ce4-f8d0038a603b): no suitable block pools found to scan. Waiting <*> ms.",['3a994d35'],127
+"VolumeScanner(/opt/hdfs/data, DS-f790b728-1e6a-46a8-8ce4-f8d0038a603b): suspect block BP-<*>-<*><*>:<*>_<*> is already queued for rescanning.",['d0307b02'],3962
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-02718dd2-5e43-4c67-99d1-bc698807426c): finished scanning block pool BP-<*>-<*>-<*>",['9a233cdb'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-02718dd2-5e43-4c67-99d1-bc698807426c): no suitable block pools found to scan. Waiting <*> ms.",['31757433'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-0cf2ec6d-5f5e-<*>-963d-768345a318b1): finished scanning block pool BP-<*>-<*>-<*>",['0419137a'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-0cf2ec6d-5f5e-<*>-963d-768345a318b1): no suitable block pools found to scan. Waiting <*> ms.",['59f5ce6a'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-1b281bc1-c360-4c49-813a-49d97cfaf3ff): finished scanning block pool BP-<*>-<*>-<*>",['2017053c'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-1b281bc1-c360-4c49-813a-49d97cfaf3ff): no suitable block pools found to scan. Waiting <*> ms.",['bc871b57'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-22c17f26-c20b-4d2f-<*>-fab6d836befe): finished scanning block pool BP-<*>-<*>-<*>",['e9dcab8a'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-22c17f26-c20b-4d2f-<*>-fab6d836befe): no suitable block pools found to scan. Waiting <*> ms.",['c0e66a5a'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-2c9dc7cc-acb8-4a22-<*>-d3376c36f8d7): finished scanning block pool BP-<*>-<*>-<*>",['65673d32'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-2c9dc7cc-acb8-4a22-<*>-d3376c36f8d7): no suitable block pools found to scan. Waiting <*> ms.",['bfefeb23'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-2e85259b-<*>-<*>-a949-60e75672c6b4): finished scanning block pool BP-<*>-<*>-<*>",['59c7f8bb'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-2e85259b-<*>-<*>-a949-60e75672c6b4): no suitable block pools found to scan. Waiting <*> ms.",['ef38ea4f'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-33a8d03c-<*>-4f77-8b1c-95bf19ba6a56): finished scanning block pool BP-<*>-<*>-<*>",['221de3fd'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-33a8d03c-<*>-4f77-8b1c-95bf19ba6a56): no suitable block pools found to scan. Waiting <*> ms.",['e5053ed3'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-4fc8c98d-c267-<*>-<*>-daaf9d9527d5): finished scanning block pool BP-<*>-<*>-<*>",['a927b218'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-4fc8c98d-c267-<*>-<*>-daaf9d9527d5): no suitable block pools found to scan. Waiting <*> ms.",['d88ba813'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-51f09356-a4c3-416b-add3-2e09e7c9da5f): finished scanning block pool BP-<*>-<*>-<*>",['9b66e172'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-51f09356-a4c3-416b-add3-2e09e7c9da5f): no suitable block pools found to scan. Waiting <*> ms.",['adefe553'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-5cf2fc63-3a8b-41d5-beec-c942648e4d90): finished scanning block pool BP-<*>-<*>-<*>",['c4f46145'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-5cf2fc63-3a8b-41d5-beec-c942648e4d90): no suitable block pools found to scan. Waiting <*> ms.",['9354f8d3'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-657c1a1a-d8ce-40ec-8f1e-07d315b57d4f): finished scanning block pool BP-<*>-<*>-<*>",['af18093f'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-657c1a1a-d8ce-40ec-8f1e-07d315b57d4f): no suitable block pools found to scan. Waiting <*> ms.",['f4970a49'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-7922da36-b08a-<*>-b03e-1a669a082235): finished scanning block pool BP-<*>-<*>-<*>",['24db4970'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-7922da36-b08a-<*>-b03e-1a669a082235): no suitable block pools found to scan. Waiting <*> ms.",['2a16505f'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-7a7a7795-8de6-4d40-9b58-3ab5405a788d): finished scanning block pool BP-<*>-<*>-<*>",['c694450c'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-7a7a7795-8de6-4d40-9b58-3ab5405a788d): no suitable block pools found to scan. Waiting <*> ms.",['7d21b61d'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-7d357a5f-01e9-4fb1-8d89-47b0c77e215e): finished scanning block pool BP-<*>-<*>-<*>",['8fc28f0b'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-7d357a5f-01e9-4fb1-8d89-47b0c77e215e): no suitable block pools found to scan. Waiting <*> ms.",['cd7f5200'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-9e42e490-1f2a-4aeb-923b-5fdb17af061f): finished scanning block pool BP-<*>-<*>-<*>",['5ac0d634'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-9e42e490-1f2a-4aeb-923b-5fdb17af061f): no suitable block pools found to scan. Waiting <*> ms.",['645f15f7'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-<*>-<*>-497e-8ba0-796f4680027d): finished scanning block pool BP-<*>-<*>-<*>",['09704d33'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-<*>-<*>-497e-8ba0-796f4680027d): no suitable block pools found to scan. Waiting <*> ms.",['6caf9408'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-ab5c78d9-a84a-4c31-a769-118a84b312a3): finished scanning block pool BP-<*>-<*>-<*>",['9fcc3a95'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-ab5c78d9-a84a-4c31-a769-118a84b312a3): no suitable block pools found to scan. Waiting <*> ms.",['c8e9c43f'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-ad81e17e-638e-4ef8-87dd-9f0664626eda): finished scanning block pool BP-<*>-<*>-<*>",['6510a35d'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-ad81e17e-638e-4ef8-87dd-9f0664626eda): no suitable block pools found to scan. Waiting <*> ms.",['985ef4c0'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-b02a541c-<*>-<*>-bc1d-8ad53504660f): finished scanning block pool BP-<*>-<*>-<*>",['0028854d'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-b02a541c-<*>-<*>-bc1d-8ad53504660f): no suitable block pools found to scan. Waiting <*> ms.",['ea309ecf'],2
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-c0c1283f-1af1-46d9-<*>-db82f674691a): finished scanning block pool BP-<*>-<*>-<*>",['86a853d5'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-c0c1283f-1af1-46d9-<*>-db82f674691a): no suitable block pools found to scan. Waiting <*> ms.",['4e494c11'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-da1bf398-d316-4e89-b510-1350dc29bcd3): finished scanning block pool BP-<*>-<*>-<*>",['d0eace18'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-da1bf398-d316-4e89-b510-1350dc29bcd3): no suitable block pools found to scan. Waiting <*> ms.",['2eae5728'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-da883f59-109e-482f-8d81-7b7c0e7b748b): finished scanning block pool BP-<*>-<*>-<*>",['d94ee30a'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-da883f59-109e-482f-8d81-7b7c0e7b748b): no suitable block pools found to scan. Waiting <*> ms.",['7b1dfb96'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-e7191155-<*>-4ecd-8e29-c022b16ccd32): finished scanning block pool BP-<*>-<*>-<*>",['92494f28'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-e7191155-<*>-4ecd-8e29-c022b16ccd32): no suitable block pools found to scan. Waiting <*> ms.",['9e1a58b7'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-e8037f8c-fba0-4f6c-8d44-fe8de386983d): finished scanning block pool BP-<*>-<*>-<*>",['44f897dc'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-e8037f8c-fba0-4f6c-8d44-fe8de386983d): no suitable block pools found to scan. Waiting <*> ms.",['38af330a'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-e9a932c0-edbf-493a-a5ff-8529c9c7d40e): finished scanning block pool BP-<*>-<*>-<*>",['6aaeafb4'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-e9a932c0-edbf-493a-a5ff-8529c9c7d40e): no suitable block pools found to scan. Waiting <*> ms.",['a82da062'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-ea7aa39b-5f38-<*>-b3d4-9caf06f55ea8): finished scanning block pool BP-<*>-<*>-<*>",['e2d5e05d'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-ea7aa39b-5f38-<*>-b3d4-9caf06f55ea8): no suitable block pools found to scan. Waiting <*> ms.",['135c54a4'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-fb5df949-457f-4a87-824e-0525f023836f): finished scanning block pool BP-<*>-<*>-<*>",['66a64941'],1
+"VolumeScanner(/tmp/hadoop-hdfs/dfs/data, DS-fb5df949-457f-4a87-824e-0525f023836f): no suitable block pools found to scan. Waiting <*> ms.",['024b48a2'],2
+dnUserName = hdfs,['0dee5972'],440
+java.io.FileNotFoundException: /opt/hdfs/data/current/VERSION (Permission denied),['b74c8ddf'],2
+jetty-<*>.<*>.<*>,['bc800f0e'],440
+loaded properties from hadoop-metrics2.properties,['ca7d7941'],440
+mesos-master-<*>:<*>:DataXceiver error processing <*> operation src: <*> dst: <*>,['993c2837'],11
+mesos-master-<*>:<*>:DataXceiver error processing WRITE_BLOCK operation src: <*> dst: <*>; org.apache.hadoop.hdfs.server.datanode.ReplicaAlreadyExistsException: Block BP-<*>-<*><*>:<*>_<*> already exists in state FINALIZED and thus cannot be created.,['ff913f30'],4
+mesos-master-<*>:<*>:DataXceiver error processing unknown operation src: <*> dst: <*>,['cb046e68'],1
+mesos-slave-<*>:<*>:DataXceiver error processing <*> operation src: <*> dst: <*>,['08e7ec57'],5
+mesos-slave-<*>:<*>:DataXceiver error processing READ_BLOCK operation src: <*> dst: <*>,['387e10c8'],2
+mesos-slave-<*>:<*>:DataXceiver error processing WRITE_BLOCK operation src: <*> dst: <*>,['606b3d66'],2
+mesos-slave-<*>:<*>:DataXceiver error processing WRITE_BLOCK operation src: <*> dst: <*>; org.apache.hadoop.hdfs.server.datanode.ReplicaAlreadyExistsException: Block BP-<*>-<*><*>:<*>_<*> already exists in state FINALIZED and thus cannot be created.,['cf3cc411'],27
+mesos-slave-<*>:<*>:DataXceiver error processing unknown operation src: <*> dst: <*>,['5f5370c4'],14
+opReadBlock BP-<*>-<*><*>:<*>_<*> received exception org.apache.hadoop.hdfs.server.datanode.ReplicaNotFoundException: Replica not found for BP-<*>-<*><*>:<*>_<*>,['48ddfb37'],2
+opWriteBlock BP-<*>-<*><*>:<*>_<*> received exception ExitCodeException exitCode=<*>: du: cannot access ‘/opt/hdfs/data/current/BP-<*>-<*><*>/current/rbw/<*>’: No such file or directory,['71b1227b'],1
+opWriteBlock BP-<*>-<*><*>:<*>_<*> received exception java.io.IOException: Premature EOF from inputStream,['e6d4e4d6'],4
+opWriteBlock BP-<*>-<*><*>:<*>_<*> received exception java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for read. ch : java.nio.channels.SocketChannel[connected local=<*> remote=<*>],['89317daf'],2
+opWriteBlock BP-<*>-<*><*>:<*>_<*> received exception org.apache.hadoop.hdfs.server.datanode.ReplicaAlreadyExistsException: Block BP-<*>-<*><*>:<*>_<*> already exists in state FINALIZED and thus cannot be created.,['191bc427'],31
+"registered UNIX signal handlers for [TERM, HUP, INT]",['a6ec12be'],440
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 0cbb6590-6a63-4e8d-b6fc-68bf01abba58, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['93805a8e'],234548
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 1e17ab02-baf4-<*>-88eb-bd036faa8cd3, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['ea204f90'],244685
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 24324dad-05c2-478c-948f-459cb8677414, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['a135c164'],264456
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 2c1bdd15-d819-4dbe-aaa1-a0f8912a90e1, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['ee10a75e'],245651
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 2cec2184-90ab-49f8-b712-7a3ac5cd83e8, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['db6ebb6e'],229460
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 3dbfe17f-642e-40b5-<*>-cc848bcdf25d, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['1cecd53f'],270254
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 42a30b39-d95f-4c29-a5a1-cec1d992a339, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['2cee6224'],153922
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 4f8dd80e-ab80-41ad-b045-99cfeb1828d2, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['20766cf2'],228638
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 591c16fa-ef87-<*>-b3ba-13eb8191028f, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['48d588ea'],187411
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 696bb755-<*>-415a-8abd-b730d39cd282, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['4db43b87'],239982
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 6b07e51c-34ad-4e4c-<*>-86ae10eaf5b8, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['161af3e9'],238588
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 6bb9fad8-<*>-45cb-839b-b929e90f4a6c, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['c80ab94c'],255721
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 6f633722-<*>-4ace-8c63-94b9829a3b13, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['6a4e1bbd'],254038
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 763295e4-6a5f-4f00-a559-614cb9d92271, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['b08301b5'],196298
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 7fe0f580-2b25-40c8-b236-c5df5dd08ca7, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['2c93d67b'],242686
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 8414aed5-c683-<*>-83f1-716399c64f8f, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['830fb615'],222688
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: 95a87747-ff24-41e2-<*>-0127a1675627, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['287aa037'],258869
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: <*>-ccb8-49f2-<*>-437980cd5139, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['596c3004'],233767
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: ac6cb715-a2bc-<*>-aaa4-10fcbd1c390e, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['39319da7'],34734
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: bc724d4c-<*>-4cf7-85a2-552527e2d444, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['1400b5b6'],218116
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: c3a1996d-957e-<*>-91a7-6dd48549cb57, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['9fa2c408'],254187
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: c5c0b742-2b9e-43f2-ba3a-91fd3f3972c4, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['c62e0588'],240540
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: ca4dcde5-<*>-4c3e-<*>-a622e243c369, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['54ede352'],204482
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: cf186bb5-4e79-4aaf-abd3-6d420db25497, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['78fde2ef'],252716
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: cfd79aa1-45f8-4e65-ad3a-96b42cd4bad2, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['df675e62'],260818
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: d3664f15-838b-<*>-acec-e768d4d38aa9, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['dff48683'],243924
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: d9ef1b17-<*>-4cd8-91eb-095413c3427f, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['da2fb016'],508019
+"src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: f80a7bac-b6b5-4c05-a6b8-e78c2c7aa549, blockid: BP-<*>-<*><*>:<*>_<*>, duration: <*>",['4a2c5e56'],235972
+supergroup = <*>,['f9a92d32'],434
+supergroup = hdfsgroup,['03542879'],6
