@@ -1,0 +1,105 @@
+STARTUP_MSG:|INFO
+registered UNIX signal handlers for [TERM, HUP, INT]|INFO
+loaded properties from hadoop-metrics2.properties|INFO
+Scheduled snapshot period at <*> second(s).|INFO
+DataNode metrics system started|INFO
+Initialized block scanner with targetBytesPerSec <*>|INFO
+Configured hostname is mesos-master<*>|INFO
+Starting DataNode with maxLockedMemory = <*>|INFO
+Opened streaming server at <*>|INFO
+Balancing bandwith is <*> bytes/s|INFO
+Number threads for balancing is <*>|INFO
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog|INFO
+Unable to initialize FileSignerSecretProvider, falling back to use random secrets.|INFO
+Http request log for http.requests.datanode is not defined|INFO
+Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)|INFO
+Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context <*>|INFO
+Jetty bound to port <*>|INFO
+jetty<*>|INFO
+Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:<*>|INFO
+Listening HTTP traffic on <*>|INFO
+dnUserName = hdfs|INFO
+supergroup = supergroup|INFO
+Using callQueue class java.util.concurrent.LinkedBlockingQueue|INFO
+Starting Socket Reader #<*> for port <*>|INFO
+Opened IPC server at <*>|INFO
+Refresh request received for nameservices: null|INFO
+Starting BPOfferServices for nameservices: <default>|INFO
+Block pool <registering> (Datanode Uuid unassigned) service to mesos-master<*><*> starting to offer service|INFO
+IPC Server Responder: starting|INFO
+IPC Server listener on <*>: starting|INFO
+Lock on <*> acquired by nodename <*>@mesos-master<*>|INFO
+Storage directory <*> is not formatted for BP<*>|INFO
+Formatting ...|INFO
+Analyzing storage directories for bpid BP<*>|INFO
+Locking is disabled for <*>|INFO
+Block pool storage directory <*> is not formatted for BP<*>|INFO
+Formatting block pool BP<*> directory <*>|INFO
+Restored <*> block files from trash.|INFO
+Setting up storage: <*>|INFO
+Generated and persisted new Datanode UUID <*>|INFO
+Added new volume: DS-<*>|INFO
+Added volume - <*>, StorageType: DISK|INFO
+Registered FSDatasetState MBean|INFO
+Adding block pool BP<*>|INFO
+Scanning block pool BP<*> on volume <*>|INFO
+Time taken to scan block pool BP<*> on <*>: <*>ms|INFO
+Total time to scan all replicas for block pool BP<*>: <*>ms|INFO
+Adding replicas to map for block pool BP<*> on volume <*>|INFO
+Time to add replicas to map for block pool BP<*> on volume <*>: <*>ms|INFO
+Total time to add all replicas to map: <*>ms|INFO
+Now scanning bpid BP<*> on volume <*>|INFO
+Periodic Directory Tree Verification scan starting at <*> with interval <*>|INFO
+VolumeScanner(<*>, DS-<*>): finished scanning block pool BP<*>|INFO
+Block pool BP<*> (Datanode Uuid <*> service to mesos-master<*><*> beginning handshake with NN|INFO
+Block pool Block pool BP<*> (Datanode Uuid <*> service to mesos-master<*><*> successfully registered with NN|INFO
+For namenode mesos-master<*><*> using DELETEREPORT_INTERVAL of <*> msec BLOCKREPORT_INTERVAL of <*>msec CACHEREPORT_INTERVAL of <*>msec Initial delay: <*>msec; heartBeatInterval=<*>|INFO
+VolumeScanner(<*>, DS-<*>): no suitable block pools found to scan. Waiting <*> ms.|INFO
+Namenode Block pool BP<*> (Datanode Uuid <*>) service to mesos-master<*><*> trying to claim ACTIVE state with txid=<*>|INFO
+Acknowledging ACTIVE Namenode Block pool BP<*> (Datanode Uuid <*>) service to mesos-master<*><*>|INFO
+Successfully sent block report <*>, containing <*> storage report(s), of which we sent <*>. The reports had <*> total blocks and used <*> RPC(s). This took <*> msec to generate and <*> msecs for RPC and NN processing. Got back one command: FinalizeCommand<*>|INFO
+Got finalize command for block pool BP<*>|INFO
+IOException in offerService|WARN
+RECEIVED SIGNAL <*>: SIGTERM|ERROR
+SHUTDOWN_MSG:|INFO
+java.io.FileNotFoundException: <*> (Permission denied)|WARN
+Initialization failed for Block pool <registering> (Datanode Uuid unassigned) service to mesos-master<*><*>. Exiting.|FATAL
+Ending block pool service for: Block pool <registering> (Datanode Uuid unassigned) service to mesos-master<*><*>|WARN
+Removed Block pool <registering> (Datanode Uuid unassigned)|INFO
+Exiting Datanode|WARN
+Exiting with status <*>|INFO
+Invalid directory in: <*>: Operation not permitted|WARN
+Receiving BP<*>:<*> src: <*> dest: <*>|INFO
+src: <*>, dest: <*>, bytes: <*>, op: HDFS_WRITE, cliID: <*> offset: <*>, srvID: <*>, blockid: BP<*>:<*>, duration: <*>|INFO
+PacketResponder: BP<*>:<*>, type=LAST_IN_PIPELINE, downstreams=<*>:[] terminating|INFO
+Scheduling <*> file <*> for deletion|INFO
+Deleted BP<*> <*> file <*>|INFO
+PacketResponder: BP<*>:<*>, type=HAS_DOWNSTREAM_IN_PIPELINE terminating|INFO
+BlockPool BP<*> Total blocks: <*>, missing metadata files:<*>, missing block files:<*>, missing blocks in memory:<*>, mismatched blocks:<*>|INFO
+supergroup = hdfsgroup|INFO
+Cached dfsUsed found for <*>: <*>|INFO
+Slow BlockReceiver write data to disk cost:<*>ms (threshold=<*>ms)|WARN
+Slow BlockReceiver write packet to mirror took <*>ms (threshold=<*>ms)|WARN
+VolumeScanner(<*>, DS-<*>): Scheduling suspect block BP<*>:<*> for rescanning.|INFO
+VolumeScanner(<*>, DS-<*>) exiting because of exception|ERROR
+VolumeScanner(<*>, DS-<*>) exiting.|INFO
+VolumeScanner(<*>, DS-<*>): suspect block BP<*>:<*> is already queued for rescanning.|INFO
+DatanodeRegistration(<*>, datanodeUuid=<*>, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-<*>;nsid=<*>;c=<*>) Starting thread to transfer BP<*>:<*> to <*>|INFO
+DataTransfer: Transmitted BP<*>:<*> (numBytes=<*>) to <*>|INFO
+Received BP<*>:<*> src: <*> dest: <*> of size <*>|INFO
+Retrying connect to server: mesos-master<*><*>. Already tried <*> time(s); maxRetries=<*>|INFO
+DatanodeRegistration(<*>, datanodeUuid=<*>, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-<*>;nsid=<*>;c=<*>) Starting thread to transfer BP<*>:<*> to <*> <*>|INFO
+Retrying connect to server: mesos-master<*><*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)|INFO
+Now rescanning bpid BP<*> on volume <*>, after more than <*> hour(s)|INFO
+DatanodeRegistration(<*>, datanodeUuid=<*>, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-<*>;nsid=<*>;c=<*>) Starting thread to transfer BP<*>:<*> to <*> <*> <*> <*> <*> <*> <*>|INFO
+mesos-master<*>:<*>:DataXceiver error processing unknown operation src: <*> dst: <*>|ERROR
+DatanodeRegistration(<*>, datanodeUuid=<*>, infoPort=<*>, infoSecurePort=<*>, ipcPort=<*>, storageInfo=lv=<*>;cid=CID-<*>;nsid=<*>;c=<*>):Failed to transfer BP<*>:<*> to <*> got|WARN
+Starting CheckDiskError Thread|INFO
+VolumeScanner(<*>, DS-<*>): Not scheduling suspect block BP<*>:<*> for rescanning, because we rescanned it recently.|INFO
+Detected pause in JVM or host machine (eg GC): pause of approximately <*>ms|INFO
+DatanodeCommand action : DNA_REGISTER from mesos-master<*><*> with active state|INFO
+Slow manageWriterOsCache took <*>ms (threshold=<*>ms)|WARN
+Failed to delete replica <*>: ReplicaInfo not found.|INFO
+Slow flushOrSync took <*>ms (threshold=<*>ms), isSync:false, flushTotalNanos=<*>ns|WARN
+Detected pause in JVM or host machine (eg GC): pause of approximately <*>ms|WARN
+Unsuccessfully sent block report <*>, containing <*> storage report(s), of which we sent <*>. The reports had <*> total blocks and used <*> RPC(s). This took <*> msec to generate and <*> msecs for RPC and NN processing. Got back no commands.|INFO
